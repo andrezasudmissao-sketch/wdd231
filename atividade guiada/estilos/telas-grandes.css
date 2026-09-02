@@ -14,8 +14,11 @@
 
     .navegacao {
     display: block;
-  }
-  .navegacao ul {display: flex;}
+   }
+
+  .navegacao ul {
+    display: flex;
+}
 } 
 
 /*À medida que a tela fica maior, precisamos exibir a tag nav mesmo que ela não tenha a classe "exibir" 

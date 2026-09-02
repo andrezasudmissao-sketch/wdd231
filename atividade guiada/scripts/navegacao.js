@@ -1,11 +1,11 @@
 
 const navbtn = document.querySelector("#ham-btn");
-navbtn .addEventListener("click", () => {
-    navbtn.classList.toggle('show');
+const menu = document.querySelector("#barra-navegacao");
+
+navbtn.addEventListener('click', () => {
+  navbtn.classList.toggle('show');
+  menu.classList.toggle('exibir');
+
+
 })
 
-const barraNavegacao = document.querySelector('#barra-navegacao');
-botaoDeNav.addEventListener('click', () => {
-  botaoDeNav.classList.toggle('exibir'); 
-  barraNavegacao.classList.toggle('exibir');  
-});
