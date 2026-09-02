@@ -1,0 +1,22 @@
+@media only screen and (min-width: 38rem) {
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto;      
+    }
+
+    header {
+        grid-template-columns: 24px auto;
+    }
+
+    .hamburger {
+        display: none;  /* some o botão no notebook*/
+    }
+
+    .navegacao {
+    display: block;
+  }
+  .navegacao ul {display: flex;}
+} 
+
+/*À medida que a tela fica maior, precisamos exibir a tag nav mesmo que ela não tenha a classe "exibir" 
+adicionada. Para fazer isso, precisamos adicionar o seguinte ao arquivo maior.css.*/
