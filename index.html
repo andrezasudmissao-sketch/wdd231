@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Câmara de Comércio</title>
+    <meta name="description" content="Uma câmara de comércio é uma organização local de empresas que trabalham juntas para fortalecer os interesses comerciais do grupo.">
+    <meta name="author" content="Andreza Gomes">
+
+    <link rel="stylesheet" href="estilos/comercio-pequeno.css">
+    <link rel="stylesheet" href="estilos/comercio-grande.css">
+   
+   
+    <!--Fonts google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+    <div class="logomenu">
+        <div class="logo">
+         <img src="imagens/solcamara.webp" alt="logo de cada" width="510" height="510">
+         <span class="titulo">Costa do Sol</span>
+         <span class="subtitulo">Câmara de Comércio</span>
+          </div>
+        
+
+        <button id="ham-btn" class="hamburger"></button>
+
+        <nav id="barra-navegacao" class="navegacao">
+         <ul>
+           <li ><a href="#">Página Inicial</a></li>
+           <li class="atual"><a href="#" >Sobre</a></li>
+          <li><a href="#">Diretório</a></li>
+          <li><a href="#">Associe-se</a></li>
+         </ul>
+        </nav>
+    </div>
+
+        <div class="hero">
+            <picture>
+                <source srcset="imagens/hero-grande.webp" media="(min-width: 1000px)">
+                <source srcset="imagens/hero-media.webp" media="(min-width: 500px)">
+                <img src="imagens/hero-pequeno.webp" alt="imagem Hero" width="500" height="250">
+            </picture>
+        </div>
+    </header>
+    
+    <main>
+        <h1>Início</h1>
+    </main>
+
+    <footer>
+          <div class="social">
+            <a href="https://youtube.com" target="_blank"><img src="imagens/youtube.svg" alt="logo do github" width="16" height="16"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="imagens/linkedin.svg" alt="logo do linkedin" width="16" height="16"></a>
+            <a href="https://x.com" target="_blank"><img src="imagens/twitter-x.svg" alt="logo do twitter" width="16" height="16"></a>
+        </div>
+          © <span id="anoatual"></span> Andreza Gomes França  — João Pessoa Brasil
+  </p>
+
+  <p id="ultimaModificacao"></p>
+
+    </footer>
+ <script src="scripts/datahora.js"></script>
+
+</body>
+</html>
+   

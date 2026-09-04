@@ -1,0 +1,31 @@
+
+@media only screen and (min-width: 38rem) {
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto;      
+    }
+
+    header {
+        grid-template-columns: 24px auto;
+    }
+
+    .hamburger {
+        display: none;  /* some o botão no notebook*/
+    }
+
+    .navegacao {
+    display: block;
+    
+   }
+
+  .navegacao ul {
+    display: flex;
+    gap: 3rem;
+    align-items: center; /*Desceu(estava muito em cima) e foi para o centro*/
+   
+   
+
+}
+
+
+} 

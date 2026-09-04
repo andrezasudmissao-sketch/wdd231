@@ -1,0 +1,118 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: "Arimo", sans-serif;
+}
+
+:root {
+    --cor-primaria: ;
+    --cor-secudanria: ;
+    --cor-fundo: ;
+    --cor-de-texto: ;
+    --fonte-family: ;    
+
+}
+
+/********** Cabeçalho ***********/
+
+.logo img{
+    display: block;
+    width: 50px;
+    height: auto;
+    border: 1px solid #000;
+    margin-left: 18px;
+    margin-top: 2px;
+    
+    
+}
+
+ .logomenu {
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
+    background-color: #EEE8AA; /*nome da cor é palegordenrod*/
+    padding: 10px;
+
+}
+
+/* Ordem desejada */
+.logo {
+  order: 1;
+}
+
+.navegacao {
+  order: 2;
+}
+
+#ham-btn {
+  order: 3;
+}
+
+
+.subtitulo {
+    display: block;
+    font-size: 0.6rem;
+    color: #000;
+    margin-left: 10px;
+   
+
+}
+
+
+/********** Botão *********/
+.hamburger {
+    background: none; /*botão hamburger sem cor e sem borda*/
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*muda o tamanho do X*/
+
+}
+
+.hamburger::after {
+    content: "\2630"; /*botão hamburger*/
+    font-size: 2rem;
+}
+
+.hamburger.show::after{
+    content: "\00D7"; 
+}
+
+/*********menu de navegação************/
+
+#barra-navegacao {
+    display: flex;
+}
+
+.navegacao a {
+     text-decoration: none;
+    
+  }
+
+  .navegacao ul{
+      list-style: none;
+  }
+
+
+
+/********imagem hero **********/
+
+
+.hero img{ 
+
+  width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+/* Sempre coloca esses três elementos no final do código, para que o site fique responsivo:
+
+width: 100% → a imagem ocupa toda a largura disponível do container .hero
+height: auto → mantém a proporção correta, sem distorcer.
+display: block → tira o comportamento “inline” da imagem, evitando espaços estranhos. */
