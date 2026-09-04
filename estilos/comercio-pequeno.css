@@ -8,6 +8,7 @@
 
 body {
     font-family: "Arimo", sans-serif;
+    
 }
 
 :root {
@@ -69,7 +70,7 @@ body {
 .hamburger {
     background: none; /*botão hamburger sem cor e sem borda*/
     border: none;
-    cursor: pointer;
+    cursor: pointer; /*Vira a mãozinha*/
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*muda o tamanho do X*/
 
 }
@@ -85,18 +86,33 @@ body {
 
 /*********menu de navegação************/
 
-#barra-navegacao {
-    display: flex;
+.navegacao {
+  display: none;   /* menu começa fechado */
 }
+
+.navegacao.exibir {
+  display: block;  /* menu abre quando o JS adiciona .exibir */
+}
+
 
 .navegacao a {
      text-decoration: none;
+     color: #000;
     
   }
 
   .navegacao ul{
       list-style: none;
+      
   }
+
+  .navegacao a:hover { /*quando passo o mousse em cima fica uma cor selecionada*/
+    background-color: #E07A5F;
+    border-radius: 3px;
+  }
+
+
+
 
 
 
@@ -110,6 +126,45 @@ body {
   display: block;
 
 }
+/********** main ************/
+
+header, main{
+    background-color: #C8A165;
+}
+
+h1{
+    color: #fff;
+    padding: 10px 12px 10px 12px; /*top  right  bottom  left*/
+}
+
+/*********** footer *********/
+
+footer{
+    background-color: #EEE8AA;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Ordem desejada */
+.contato {
+  order: 1;
+}
+
+.social {
+  order: 2;
+
+}
+
+.projeto {
+  order: 3;
+}
+
+
+
+
+
 
 /* Sempre coloca esses três elementos no final do código, para que o site fique responsivo:
 
