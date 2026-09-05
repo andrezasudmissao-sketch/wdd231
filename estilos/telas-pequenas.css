@@ -17,6 +17,7 @@
 body {
     font-family: "Arimo", sans-serif;
     
+    
 }
 
 header img{
@@ -202,14 +203,37 @@ footer{
 
 /********** array **********/
 
+.filter-btn.selected {
+  background-color: black;
+  color: white;
 
-
-
-
-.ativo {
-    background-color: #744f65; 
-    color: white;
 }
+
+
+.filters{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.courses{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.filter-btn {
+  padding: 6px 3rem;   /* aumenta o tamanho interno */
+  font-size: 1rem;    /* aumenta o texto */
+  border-radius: 10px;  /* deixa mais bonito */
+  margin-bottom: 15px;  /* adiciona espaço entre os botões */
+}
+
+
+
+
+
+
 
 
 
