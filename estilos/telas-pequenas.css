@@ -70,6 +70,12 @@ body {
 .hamburger.show::after{
     content: "\00D7";
 }
+
+h1 {
+
+ margin: 10px 0 10px 0;
+  
+}
  /******* seção section ********/
 
 h2{
@@ -88,5 +94,12 @@ h2{
 
 footer{
     margin-top: 15px;
+    text-align: center;
 }
+
+.social {
+    align-items: center;
+}
+
+
 

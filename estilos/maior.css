@@ -25,6 +25,24 @@
    .navegacao a:hover { /*quando passo o mousse aparece a maozinha*/
     padding: 10px;
    }
+   
+   .sobre-foto{
+    display: flex;
+    gap: 10px;
+
+   }
+
+   .sobre {
+    border:1px solid #000 ;
+    margin-bottom: 5px;
+    text-align: justify;
+
+   }
+   .foto{
+    border:1px solid #000 ;
+   }
+   
+
 
   
 
