@@ -12,6 +12,7 @@
    
     <script src="scripts/navegacao.js" defer></script>
     <script src="scripts/datahora.js" defer></script>
+    <script src="scripts/array.js" defer></script>
    
    
     <!--Fonts google-->
@@ -44,7 +45,7 @@
     <main>
         <h1>Página Inicial</h1>
 
-        <div class="sobre-foto">
+          <div class="sobre-foto">
         <section class="sobre">
             <h2>Sobre mim</h2>
             <p>Olá, meu nome é Andreza, tenho 31 anos e sou casada há seis anos. Sempre fui apaixonada por animais, animes e jogos,
@@ -54,26 +55,45 @@
               brasileira, com aulas totalmente online. Essa jornada tem ampliado minhas habilidades, minha visão profissional e meu
                entusiasmo pelo mundo da tecnologia.
            </p>
-        </section>
+        </section> 
 
-       
+
         <section class="foto">
-              <h2>Foto</h2>
-              <img src="imagens/sou-eu.webp" alt="minha imagem">
-        </section>
+            <h2>Minha foto</h2>
+        <picture>
+            <source srcset="imagens/grande.webp" media="(min-width: 1000px)">
+            <source srcset="imagens/media.webp" media="(min-width: 500px)">
+            <img src="imagens/pequena.webp" alt="imagem Hero" width="500" height="250">
+        </picture>
+       
         </div>
 
-        <section class="cursos">
+         <!-- <section class="cursos">
              <h2>Cursos de certifição de Web</h2>
+
+             <div class="curso-byu">
              <p>Todos</p>
              <p>CSE</p>
              <p>WDD</p>
+             </div>
+            
+             <div class="classe-byu">
              <p>WDD130</p>
              <p>WDD131</p>
              <p>WDD231</p>
-        </section>
+             </div>
+        </section> -->
 
+           <button id="todos">Todos</button>
+           <button id="cse">CSE</button>
+           <button id="wdd">WDD</button>
+
+       
+        <div class="creditos">
         <p>Total de créditos para os curso listados acima é 6</p>
+        </div> 
+
+
     </main>
 
     <footer> 
@@ -82,12 +102,11 @@
             <a href="https://linkedin.com" target="_blank"><img src="imagens/linkedin.svg" alt="logo do linkedin"></a>
             <a href="https://x.com" target="_blank"><img src="imagens/twitter-x.svg" alt="logo do twitter"></a>
         </div>
-
-             <p>
-       © <span id="anoatual"></span> Andreza Gomes França — Brasil
-       </p>
-
-       <p id="ultimaModificacao"></p>
+        
+        <div class="datamodifica">
+        <p>© <span id="anoatual"></span> Andreza Gomes França — Brasil</p>
+        <p id="ultimaModificacao"></p>
+        </div>
 
     </footer>
     

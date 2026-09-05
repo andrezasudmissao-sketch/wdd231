@@ -14,12 +14,13 @@
 
     .navegacao {
     display: block;
+    padding: 10px;
    }
 
   .navegacao ul {
     display: flex;
     gap: 30px;
-    padding: 10px;
+   
    }
 
    .navegacao a:hover { /*quando passo o mousse aparece a maozinha*/
@@ -33,17 +34,40 @@
    }
 
    .sobre {
-    border:1px solid #000 ;
+   
     margin-bottom: 5px;
     text-align: justify;
 
    }
    .foto{
     border:1px solid #000 ;
+    margin-bottom: 5px;
    }
+
+
+
+   .foto-eu img {
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+   padding: 10px 5px;
+   }
+
+
    
+   .classe-byu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+ 
+}
+
+   .classe-byu p {
+    border-radius: 5px;
+    border:none;
+   }
 
 
-  
+
 
 }

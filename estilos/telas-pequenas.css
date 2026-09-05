@@ -19,15 +19,32 @@ body {
     
 }
 
-.navegacao{
-
-    background-color: #F7DDE2;
+header img{
+    width: 40px;
+    transform: translate(4px, 4px); /* move 4px à direita e 4px para baixo */
 }
+
+header{
+    padding: 0;  /*junto com margin 0 fez cola o Menu na border*/
+    margin: 0;
+    border: 1px solid #000;
+    
+}
+    
+header span{
+    
+    font-size: 1.2rem;
+    padding: 20px; 
+   
+}
+
+
 
 /*********menu de navegação************/
 
 .navegacao {
   display: none;   /* menu começa fechado */
+  background-color:#000 ;
 }
 
 .navegacao.exibir {
@@ -37,7 +54,7 @@ body {
 
 .navegacao a {
      text-decoration: none;
-     color: #000;
+     color: #fff;
     
   }
 
@@ -76,6 +93,26 @@ h1 {
  margin: 10px 0 10px 0;
   
 }
+
+/******** Eu Foto *********/
+
+.foto img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 10px;
+    
+
+     
+}
+
+.sobre p{
+    padding: 22px;
+    font-size: 13px;
+    border:1px solid #000 ;
+}
+
+
  /******* seção section ********/
 
 h2{
@@ -86,20 +123,94 @@ h2{
 
 }
 
+.creditos{
+    text-align: center;
+    margin: 15px;
+}
+
+
 .cursos p{
     
     background-color: #E9A8C6;
-    margin-top: 2px;
+    padding: 6px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-top: 6px;
+    
+    
 }
+
+
+.curso-byu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    align-items: center;
+  
+   
+}
+
+.curso-byu p {
+    border-radius: 5px;
+    
+    
+    
+}
+
+/****** footer ******/ 
+
 
 footer{
     margin-top: 15px;
     text-align: center;
+   
 }
 
+
 .social {
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
 }
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #ccc solid 1px;
+    border-radius: 4px;
+    width: 44px;
+    height: 44px;
+}
+
+.social img {
+    width: 26px;
+    height: 26px;
+
+}
+
+.social a:hover {
+    background-color: rgb(15, 14, 14);
+}
+
+.datamodifica{
+    background-color: #F7DDE2;
+    padding: 10px;
+    margin-top: 10px;
+    border:#000 1px solid;
+}
+
+/********** array **********/
+
+
+
+
+
+.ativo {
+    background-color: #744f65; 
+    color: white;
+}
+
 
 
 
