@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: ;
+    --cor-secudanria: ;
+    --cor-fundo: ;
+    --cor-de-texto: ;
+    --fonte-family: ;    
+
+}
+
+
+body {
+    font-family: "Arimo", sans-serif;
+    
+}
+
+.navegacao{
+
+    background-color: #F7DDE2;
+}
+
+/*********menu de navegação************/
+
+.navegacao {
+  display: none;   /* menu começa fechado */
+}
+
+.navegacao.exibir {
+  display: block;  /* menu abre quando o JS adiciona .exibir */
+}
+
+
+.navegacao a {
+     text-decoration: none;
+     color: #000;
+    
+  }
+
+  .navegacao ul{
+      list-style: none;
+      
+  }
+
+  .navegacao a:hover { /*quando passo o mousse em cima fica uma cor selecionada*/
+    background-color:#E9A8C6;
+    border-radius: 3px;
+  }
+
+/******* botão *******/
+
+.hamburger {
+    
+    background: none; /*botão hamburger sem cor e sem borda*/
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*muda o tamanho do X*/
+
+}
+
+.hamburger::after {
+    content: "\2630"; /*botão hamburger*/
+    font-size: 2rem;
+}
+
+.hamburger.show::after{
+    content: "\00D7";
+}
+ /******* seção section ********/
+
+h2{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    text-align:center;
+
+}
+
+.cursos p{
+    
+    background-color: #E9A8C6;
+    margin-top: 2px;
+}
+
+footer{
+    margin-top: 15px;
+}
+
