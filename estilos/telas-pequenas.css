@@ -121,6 +121,7 @@ h2{
     color: #fff;
     padding: 5px;
     text-align:center;
+    
 
 }
 
@@ -156,6 +157,10 @@ h2{
     
     
     
+}
+
+.cursos h2{
+    margin-bottom: 15px;
 }
 
 /****** footer ******/ 
