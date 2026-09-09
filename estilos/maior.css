@@ -34,6 +34,15 @@
 
    }
 
+   .eu-btn{
+    display: flex;
+    justify-content:flex-start; /*alinhe tudo para a direita*/
+    align-items: center; /*Para a distroção da logo imagem. Geralmente imagem fica assim por causa do display flex.*/
+    padding:10px;
+    
+
+    }   
+
    .sobre {
    
     margin-bottom: 5px;
