@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,main, footer{
+     max-width: 900px;
+     margin: 0 auto; 
+}
+
+#cartoes {
+  
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   padding: 10px;
+   background-color: #b3c4d4;
+   gap: 10px;
+   
+
+}
+
+h2{
+    
+    color: #135fa6;
+    padding: 5px;
+    text-align:center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+    background-color: #b3c4d4;
+    color: #135fa6;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px #fff; /*sombra branca atras da imagem*/
+    border: 1px solid #fff;
+
+}
+
+p{
+    text-align: center;
+    color: gold;
+    margin-bottom: 3px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    color: #135fa6;
+    background-color: #b3c4d4;
+    margin-top: 3px;
+}
+
+
+
+
+/* repeat() = repete colunas.
+auto-fit = cria quantas colunas couberem na largura disponível.
+minmax(200px, 1fr) = cada coluna terá no mínimo 200px e poderá crescer para ocupar o espaço restante.*/

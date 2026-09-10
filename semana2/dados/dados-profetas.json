@@ -1,0 +1,203 @@
+
+{
+  "profetas": [
+    {
+      "nome": "Joseph",
+      "sobrenome": "Smith",
+      "nascimento": "1805-12-23",
+      "morte": "1844-06-27",
+      "duracao": 14,
+      "ordem": 1,
+      "localNascimento": "Vermont",
+      "numeroFilhos": 11,
+      "urlImagem": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
+    },
+    {
+      "nome": "Brigham",
+      "sobrenome": "Young",
+      "nascimento": "1801-06-01",
+      "morte": "1877-08-29",
+      "duracao": 30,
+      "ordem": 2,
+      "localNascimento": "Vermont",
+      "numeroFilhos": 56,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+    },
+    {
+      "nome": "John",
+      "sobrenome": "Taylor",
+      "nascimento": "1808-11-01",
+      "morte": "1887-07-25",
+      "duracao": 6,
+      "ordem": 3,
+      "localNascimento": "Inglaterra",
+      "numeroFilhos": 34,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+    },
+    {
+      "nome": "Wilford",
+      "sobrenome": "Woodruff",
+      "nascimento": "1807-03-01",
+      "morte": "1898-09-02",
+      "duracao": 9,
+      "ordem": 4,
+      "localNascimento": "Connecticut",
+      "numeroFilhos": 34,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+    },
+    {
+      "nome": "Lorenzo",
+      "sobrenome": "Snow",
+      "nascimento": "1814-04-03",
+      "morte": "1901-10-19",
+      "duracao": 3,
+      "ordem": 5,
+      "localNascimento": "Ohio",
+      "numeroFilhos": 42,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+    },
+    {
+      "nome": "Joseph F.",
+      "sobrenome": "Smith",
+      "nascimento": "1838-11-12",
+      "morte": "1918-11-19",
+      "duracao": 17,
+      "ordem": 6,
+      "localNascimento": "Missouri",
+      "numeroFilhos": 48,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+    },
+    {
+      "nome": "Heber J.",
+      "sobrenome": "Grant",
+      "nascimento": "1856-11-22",
+      "morte": "1945-05-14",
+      "duracao": 23,
+      "ordem": 7,
+      "localNascimento": "Utah",
+      "numeroFilhos": 12,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+    },
+    {
+      "nome": "George A.",
+      "sobrenome": "Smith",
+      "nascimento": "1870-04-04",
+      "morte": "1951-04-04",
+      "duracao": 6,
+      "ordem": 8,
+      "localNascimento": "Utah",
+      "numeroFilhos": 3,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+    },
+    {
+      "nome": "David O.",
+      "sobrenome": "McKay",
+      "nascimento": "1873-09-08",
+      "morte": "1970-01-18",
+      "duracao": 19,
+      "ordem": 9,
+      "localNascimento": "Utah",
+      "numeroFilhos": 7,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
+    },
+    {
+      "nome": "Joseph Fielding",
+      "sobrenome": "Smith",
+      "nascimento": "1876-07-19",
+      "morte": "1972-07-02",
+      "duracao": 1,
+      "ordem": 10,
+      "localNascimento": "Utah",
+      "numeroFilhos": 11,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/teachings-of-presidents-of-the-church/joseph-fielding-smith/joseph-fielding-smith-82916-gallery.jpg"
+    },
+    {
+      "nome": "Harold B.",
+      "sobrenome": "Lee",
+      "nascimento": "1899-03-28",
+      "morte": "1973-12-26",
+      "duracao": 1,
+      "ordem": 11,
+      "localNascimento": "Idaho",
+      "numeroFilhos": 2,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/harold-b-lee-37763-gallery.jpg"
+    },
+    {
+      "nome": "Spencer W.",
+      "sobrenome": "Kimball",
+      "nascimento": "1895-03-28",
+      "morte": "1985-11-05",
+      "duracao": 12,
+      "ordem": 12,
+      "localNascimento": "Utah",
+      "numeroFilhos": 4,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/spencer-w-kimball-82918-gallery.jpg"
+    },
+    {
+      "nome": "Ezra Taft",
+      "sobrenome": "Benson",
+      "nascimento": "1899-08-04",
+      "morte": "1994-05-30",
+      "duracao": 9,
+      "ordem": 13,
+      "localNascimento": "Idaho",
+      "numeroFilhos": 6,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lds-president-ezra-taft-benson-83244-gallery.jpg"
+    },
+    {
+      "nome": "Howard W.",
+      "sobrenome": "Hunter",
+      "nascimento": "1907-11-14",
+      "morte": "1995-03-03",
+      "duracao": 1,
+      "ordem": 14,
+      "localNascimento": "Idaho",
+      "numeroFilhos": 3,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lds-president-howard-w-hunter-83247-gallery-notice.jpg"
+    },
+    {
+      "nome": "Gordon B.",
+      "sobrenome": "Hinckley",
+      "nascimento": "1910-06-23",
+      "morte": "2008-01-27",
+      "duracao": 13,
+      "ordem": 15,
+      "localNascimento": "Utah",
+      "numeroFilhos": 5,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lds-president-gordon-b-hinckley-83335-gallery.jpg"
+    },
+    {
+      "nome": "Thomas S.",
+      "sobrenome": "Monson",
+      "nascimento": "1927-08-21",
+      "morte": "2018-01-02",
+      "duracao": 10,
+      "ordem": 16,
+      "localNascimento": "Utah",
+      "numeroFilhos": 3,
+      "urlImagem": "https://media.ldscdn.org/images/media-library/church-leadership/first-presidency-and-quorum-of-the-twelve-apostles/president-thomas-s-monson-lds-560823-gallery.jpg"
+    },
+    {
+      "nome": "Russell M.",
+      "sobrenome": "Nelson",
+      "nascimento": "1924-09-09",
+      "morte": "2025-09-27",
+      "duracao": 7,
+      "ordem": 17,
+      "localNascimento": "Utah",
+      "numeroFilhos": 10,
+      "urlImagem": "https://www.churchofjesuschrist.org/imgs/57efa9db7ae0bb889d74594f5a694c413b4483de/full/3840%2C/0/default"
+    },
+    {
+      "nome": "Dallin H.",
+      "sobrenome": "Oaks",
+      "nascimento": "1932-08-12",
+      "morte": null,
+      "duracao": 0,
+      "ordem": 18,
+      "localNascimento": "Utah",
+      "numeroFilhos": 6,
+      "urlImagem": "https://www.churchofjesuschrist.org/imgs/9553a4d2e8f5950c2d187807a919ccead9001c9d/full/3840%2C/0/default"
+    }
+  ]
+}
