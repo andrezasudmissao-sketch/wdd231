@@ -1,0 +1,93 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: "Arimo", sans-serif;
+    
+}
+
+:root {
+    --cor-primaria: ;
+    --cor-secudanria: ;
+    --cor-fundo: ;
+    --cor-de-texto: ;
+    --fonte-family: ;    
+
+}
+/********** Botão *********/
+.hamburger {
+    background: none; /*botão hamburger sem cor e sem borda*/
+    border: none;
+    cursor: pointer; /*Vira a mãozinha*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*muda o tamanho do X*/
+
+}
+
+.hamburger::after {
+    content: "\2630"; /*botão hamburger*/
+    font-size: 2rem;
+}
+
+.hamburger.show::after{
+    content: "\00D7"; 
+}
+
+/*********menu de navegação************/
+
+.navegacao {
+  display: none;   /* menu começa fechado */
+}
+
+.navegacao.exibir {
+  display: block;  /* menu abre quando o JS adiciona .exibir */
+}
+
+
+.navegacao a {
+     text-decoration: none;
+     color: #000;
+    
+}
+
+  .navegacao ul{
+      list-style: none;
+      
+}
+
+  .navegacao a:hover { /*quando passo o mousse em cima fica uma cor selecionada*/
+    background-color: #E07A5F;
+    border-radius: 3px;
+}
+
+
+
+
+/*********** footer *********/
+
+footer{
+    background-color: #EEE8AA;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Ordem desejada */
+.contato {
+  order: 1;
+}
+
+.social {
+  order: 2;
+
+}
+
+.projeto {
+  order: 3;
+}

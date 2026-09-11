@@ -8,12 +8,16 @@
     <meta name="author" content="Andreza Gomes">
     <meta property="og:title" content="Fcebook">
     <meta property="og:description" content="Facebook é uma mídia social e rede social virtual lançada em 4 de fevereiro de 2004, operado e de propriedade privada da Meta, Inc.O Facebook foi fundado por Mark Zuckerberg e por seus colegas de quarto da faculdade Eduardo Saverin, Dustin Moskovitz e Chris Hughes.">
-    <meta property="og:image" content="">
->   <meta property="og:locale" content="pt-br">
+    <meta property="og:image" content="https://andrezasudmissao-sketch.github.io/wdd231/camara/imagens/face-og.webp">
+    <meta property="og:url" content="https://andrezasudmissao-sketch.github.io/wdd231/">
 
-    <link rel="stylesheet" href="estilos/camara.css">
+
+    <link rel="stylesheet" href="estilos/diretorio-pequeno.css">
+    <link rel="stylesheet" href="estilos/diretorio-maior.css">
    
     <script src="scripts/datahora.js" defer ></script>
+
+    <link rel="icon" href="camara-favicon.ico" type="image/x-icon">
    
    
     <!--Fonts google-->
@@ -24,9 +28,48 @@
 
 <body>
 
-    <header></header>
+    <header> 
+        
+        <button id="ham-btn" class="hamburger"></button>
+
+        <nav id="barra-navegacao" class="navegacao">
+         <ul>
+           <li ><a href="#">Página Inicial</a></li>
+           <li class="atual"><a href="#" >Sobre</a></li>
+          <li><a href="#">Diretório</a></li>
+          <li><a href="#">Associe-se</a></li>
+         </ul>
+        </nav>
+
+       </div>
+     </header>
+
     <main></main>
-    <footer></footer>
     
+    <footer>
+     
+        <div class="contato">
+       <h3>Câmara de Comércio Costa do Sol</h3>
+           <p>Rua do Sol, 123 – Costa do Sol - PB</p>
+           <p>(83) 99999-9999</p>
+           <p>comercio.costadosol@gmail.com</p>
+       </div>
+
+         <div class="social">
+            <a href="https://linkedin.com" target="_blank"><img src="imagens/linkedin.svg" alt="logo do linkedin" class="icone-redes"></a>
+            <a href="https://youtube.com" target="_blank"><img src="imagens/youtube.svg" alt="logo do github" class="icone-redes"></a>
+            <a href="https://x.com" target="_blank"><img src="imagens/twitter-x.svg" alt="logo do twitter" class="icone-redes"></a>
+        </div>
+
+
+       <div class="projeto">
+          <p>Projeto de Aula WDD231</p>
+          <p>Andreza Gomes França</p>
+          <p>Costa do Sol — Câmara de Comércio</p>
+          <p id="ultimaModificacao"></p>
+          © <span id="anoatual"></span> 
+          </div>
+         
+    </footer>
 </body>
 </html>
