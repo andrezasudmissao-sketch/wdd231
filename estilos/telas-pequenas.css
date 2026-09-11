@@ -5,14 +5,13 @@
 }
 
 :root {
-    --cor-primaria: ;
-    --cor-secudanria: ;
-    --cor-fundo: ;
-    --cor-de-texto: ;
-    --fonte-family: ;    
+    --cor-primaria: #E9A8C6;
+    --cor-secundaria: #F7DDE2;
+    --cor-fundo: #FFF;
+    --cor-de-texto: #333;
+    --fonte-family: "Arimo", sans-serif;
 
 }
-
 
 body {
     font-family: "Arimo", sans-serif;
@@ -31,14 +30,15 @@ body {
 
 header img{
     width: 40px;
-    border: 1px solid #000;
+    border: 1px solid var(--cor-de-texto);
    
 }
 
 header{
     padding: 0;  /*junto com margin 0 fez cola o Menu na border*/
     margin: 0;
-    border: 1px solid #000;
+    border: 1px solid var(--cor-de-texto);
+    background-color: var(--cor-secundaria);
     
 }
     
@@ -55,7 +55,7 @@ header span{
 
 .navegacao {
   display: none;   /* menu começa fechado */
-  background-color:#000 ;
+  background-color:var(--cor-de-texto);
 }
 
 .navegacao.exibir {
@@ -65,7 +65,7 @@ header span{
 
 .navegacao a {
      text-decoration: none;
-     color: #fff;
+     color: var(--cor-fundo);
     
   }
 
@@ -75,7 +75,7 @@ header span{
   }
 
   .navegacao a:hover { /*quando passo o mousse em cima fica uma cor selecionada*/
-    background-color:#E9A8C6;
+    background-color: var(--cor-primaria);
     border-radius: 3px;
   }
 
@@ -120,7 +120,7 @@ h1 {
 .sobre p{
     padding: 22px;
     font-size: 13px;
-    border:1px solid #000 ;
+    border:1px solid var(--cor-de-texto) ;
 }
 
 
@@ -128,7 +128,7 @@ h1 {
 
 h2, h3{
     background-color: #000;
-    color: #fff;
+    color: var(--cor-fundo);
     padding: 5px;
     text-align:center;
     font-size: 18px;
@@ -170,14 +170,14 @@ footer{
 }
 
 .social a:hover {
-    background-color: rgb(15, 14, 14);
+    background-color: var(--cor-de-texto);
 }
 
 .datamodifica{
-    background-color: #F7DDE2;
+    background-color: var(--cor-secundaria);
     padding: 10px;
     margin-top: 10px;
-    border:#000 1px solid;
+    border:var(--cor-de-texto) 1px solid;
 }
 
 /********** array **********/
@@ -194,7 +194,7 @@ footer{
 button{
    
     font-size: 18px;
-    border: 1px solid #000;
+    border: 1px solid var(--cor-de-texto);
     border-radius: 5px;
     font-weight: 700; /*negrito*/
 }
