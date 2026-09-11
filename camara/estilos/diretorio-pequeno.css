@@ -20,6 +20,52 @@ body {
     --fonte-family: ;    
 
 }
+/********** Cabeçalho ***********/
+
+.logo img{
+    display: block;
+    width: 50px;
+    height: auto;
+    border: 1px solid #000;
+    margin-left: 18px;
+    margin-top: 2px;
+    
+    
+}
+
+ .logomenu {
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
+    background-color: #EEE8AA; /*nome da cor é palegordenrod*/
+    padding: 10px;
+    margin-bottom: 10px;/*Tirar quando colocar o MAIN!*/
+
+}
+
+/* Ordem desejada */
+.logo {
+  order: 1;
+}
+
+.navegacao {
+  order: 2;
+}
+
+#ham-btn {
+  order: 3;
+}
+
+
+.subtitulo {
+    display: block;
+    font-size: 0.6rem;
+    color: #000;
+    margin-left: 10px;
+   
+
+}
+
 /********** Botão *********/
 .hamburger {
     background: none; /*botão hamburger sem cor e sem borda*/
@@ -42,6 +88,9 @@ body {
 
 .navegacao {
   display: none;   /* menu começa fechado */
+  background-color: #EEE8AA; /*nome da cor é palegordenrod*/
+  padding: 20px;
+  
 }
 
 .navegacao.exibir {
@@ -53,15 +102,16 @@ body {
      text-decoration: none;
      color: #000;
     
+    
 }
 
-  .navegacao ul{
+.navegacao ul{
       list-style: none;
-      
+       
 }
 
   .navegacao a:hover { /*quando passo o mousse em cima fica uma cor selecionada*/
-    background-color: #E07A5F;
+    background-color: #f6f4c8;
     border-radius: 3px;
 }
 

@@ -5,10 +5,8 @@
         margin: 0 auto;      
     }
 
-    header {
-        grid-template-columns: 24px auto;
-    }
 
+    
     .hamburger {
         display: none;  /* some o botão no notebook*/
     }
