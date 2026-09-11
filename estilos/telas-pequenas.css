@@ -126,52 +126,16 @@ h1 {
 
  /******* seção section ********/
 
-h2{
+h2, h3{
     background-color: #000;
     color: #fff;
     padding: 5px;
     text-align:center;
-    
-
-}
-
-.creditos{
-    text-align: center;
-    margin: 15px;
-}
-
-
-.cursos p{
-    
-    background-color: #E9A8C6;
-    padding: 6px;
-    border: 1px solid #000;
-    text-align: center;
-    margin-top: 6px;
-    
+    font-size: 18px;
+ 
     
 }
 
-
-.curso-byu{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 40px;
-    align-items: center;
-  
-   
-}
-
-.curso-byu p {
-    border-radius: 5px;
-    
-    
-    
-}
-
-.cursos h2{
-    margin-bottom: 15px;
-}
 
 /****** footer ******/ 
 
@@ -218,31 +182,43 @@ footer{
 
 /********** array **********/
 
-.filter-btn.selected {
-  background-color: black;
-  color: white;
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
 
 }
 
-
-.filters{
-    display: flex;
-    justify-content: space-around;
+button{
    
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-weight: 700; /*negrito*/
 }
 
-.courses{
-    display: flex;
-    justify-content: space-around;
+
+.wdd {
+    background-color: #f4f3f3;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px auto; /* separa e centraliza */
+    text-align: center; /* centraliza o texto */
+    width: 200px; /* deixa todos com o mesmo tamanho */
+}
+
+
+.credito {
+    
     text-align: center;
+    padding: 10px;
+    margin: 10px 20px;
 }
 
-.filter-btn {
-  padding: 6px 3rem;   /* aumenta o tamanho interno */
-  font-size: 1rem;    /* aumenta o texto */
-  border-radius: 10px;  /* deixa mais bonito */
-  margin-bottom: 15px;  /* adiciona espaço entre os botões */
-}
+
+
 
 
 
