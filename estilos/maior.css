@@ -28,9 +28,14 @@
     padding: 10px;
    }
    
+
    .sobre-foto{
     display: flex;
-    gap: 10px;
+    justify-content: space-between; /* separa os blocos */
+  
+  
+   
+
 
    }
 
@@ -43,35 +48,52 @@
 
     }   
 
-   .sobre {
    
-    margin-bottom: 5px;
-    text-align: justify;
-
+   
+/*Usei o display flex para alinhar os blocos lado a lado*/
+   .sobre {
+   flex: 1; /* ocupa metade do espaço */
+   margin-right: 10px; /* espaço entre os blocos */
+   margin-bottom: 5px;
+  
+  
    }
-   .foto{
+
+
+
+  .foto {
+   flex: 1; /* ocupa metade do espaço */
     border:1px solid #000 ;
     margin-bottom: 5px;
-   }
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*Se encaixa perfeitamente no bloco. */
+    
+  } 
 
 
 
    button{
     padding: 10px 6rem;
     
-}
+ }
    
    .cursos{
      display: flex;
      justify-content: space-around;
    }
-   
+
    /*imagens responsivas*/
+   
   .foto img {
+
     display: block;
-    width: 100%;
+
     max-width: 100%;
     height: auto;
+   
+
+
    }
 
 }
