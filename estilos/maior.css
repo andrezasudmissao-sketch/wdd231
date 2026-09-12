@@ -56,13 +56,6 @@
 
 
 
-   .foto-eu img {
-   width: 100%;
-   height: auto;
-   border-radius: 10px;
-   padding: 10px 5px;
-   }
-
    button{
     padding: 10px 6rem;
     
@@ -72,5 +65,15 @@
      display: flex;
      justify-content: space-around;
    }
+   
+   /*imagens responsivas*/
+  .foto img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+   }
 
 }
+
+

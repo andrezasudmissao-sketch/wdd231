@@ -66,6 +66,8 @@ header span{
 .navegacao a {
      text-decoration: none;
      color: var(--cor-fundo);
+     line-height: 2;
+     
     
   }
 
@@ -77,6 +79,7 @@ header span{
   .navegacao a:hover { /*quando passo o mousse em cima fica uma cor selecionada*/
     background-color: var(--cor-primaria);
     border-radius: 3px;
+    padding: 5px;
   }
 
 /******* botão *******/
@@ -106,16 +109,6 @@ h1 {
 }
 
 /******** Eu Foto *********/
-
-.foto img {
-    width: 100%;
-    height: auto;
-    display: block;
-    padding: 10px;
-    
-
-     
-}
 
 .sobre p{
     padding: 22px;
@@ -188,6 +181,7 @@ footer{
     align-items: center;
     padding: 10px;
     
+    
 
 }
 
@@ -197,9 +191,10 @@ button{
     border: 1px solid var(--cor-de-texto);
     border-radius: 5px;
     font-weight: 700; /*negrito*/
+    padding: 10px 25px; 
 }
 
-
+/*cursos*/
 .wdd {
     background-color: #f4f3f3;
     border-radius: 5px;
@@ -216,6 +211,9 @@ button{
     padding: 10px;
     margin: 10px 20px;
 }
+
+
+
 
 
 
