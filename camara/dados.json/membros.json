@@ -1,0 +1,70 @@
+{
+    "membros": [
+         {
+      "NomeDaEmpresa": "BrisaTech Soluções Digitais",
+      "endereco": " Av. Epitácio Pessoa, 1234 – Bairro dos Estados",
+      "NumeroDetelefone": "(83) 3021-8899",
+      "Nome_de_arquivo_de_imagem": "brisatech.webp",
+      "Nivel_de_associação": 3,
+      "Produto_servico_oferecido": "Sistemas de gestão empresarial",
+      "URLs_de_sites":":https://brisatech.com.br"
+    },
+     {
+      "NomeDaEmpresa": "Paraíba Verde Agricultura Urbana",
+      "endereco": "Rua Maciel Pinheiro, 210 – Centro",
+      "NumeroDetelefone": "(83) 98845-1122",
+      "Nome_de_arquivo_de_imagem": "pbverde.webp",
+      "Nivel_de_associação": 2,
+      "Produto_servico_oferecido":"Hortas urbanas e kits de cultivo" ,
+      "URLs_de_sites":"https://pbverde.com.br"
+    },
+     {
+      "NomeDaEmpresa": "Oceano Norte Turismo & Passeios",
+      "endereco": "Av. Cabo Branco, 980 – Cabo Branco",
+      "NumeroDetelefone": "(83) 3245-6677",
+      "Nome_de_arquivo_de_imagem": "oceanonorte.webp",
+      "Nivel_de_associação": 3,
+      "Produto_servico_oferecido": "Passeios turísticos e trilhas guiadas",
+      "URLs_de_sites":"https://oceanonorte.com.br "
+    },
+ {
+      "NomeDaEmpresa": "Casa da Borborema Artesanato",
+      "endereco": "Rua da Areia, 45 – Varadouro",
+      "NumeroDetelefone": "(83) 98777-3344",
+      "Nome_de_arquivo_de_imagem": "casaborborema.webp",
+      "Nivel_de_associação": 1,
+      "Produto_servico_oferecido": "Artesanato regional e peças decorativas",
+      "URLs_de_sites":"https://casaborborema.com.br"
+    },
+ {
+      "NomeDaEmpresa": "Sol & Sabor Confeitaria Artesanal",
+      "endereco": "Av. Dom Pedro II, 560 – Torre",
+      "NumeroDetelefone": "(83) 3030-2211",
+      "Nome_de_arquivo_de_imagem": "solesabor.webp",
+      "Nivel_de_associação": 2,
+      "Produto_servico_oferecido": "Doces artesanais e bolos especiais",
+      "URLs_de_sites":"https://solesabor.com.br"
+    },
+     {
+      "NomeDaEmpresa": "JampaFit Academia & Bem-Estar",
+      "endereco": "Rua Bancário Waldemar de Mesquita Accioly, 300 – Bancários",
+      "NumeroDetelefone": "(83) 99912-5566",
+      "Nome_de_arquivo_de_imagem": "jampafit.webp",
+      "Nivel_de_associação": 1,
+      "Produto_servico_oferecido": "Treinamento funcional e pilates",
+      "URLs_de_sites":"https://jampafit.com.br"
+    },
+ {
+      "NomeDaEmpresa": "Atlântico Digital Marketing",
+      "endereco": "Av. João Maurício, 1900 – Manaíra",
+      "NumeroDetelefone": "(83) 3222-9900",
+      "Nome_de_arquivo_de_imagem": "atlanticodigital.webp",
+      "Nivel_de_associação": 3,
+      "Produto_servico_oferecido": "Marketing digital e gestão de redes sociais",
+      "URLs_de_sites":"https://atlanticodigital.com.br"
+    }
+
+
+
+    ]
+}
