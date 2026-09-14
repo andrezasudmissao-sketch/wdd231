@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/andrezasudmissao-sketch/wdd231/refs/heads/main/camara/dados.json/membros.json';
+const url = 'https://raw.githubusercontent.com/andrezasudmissao-sketch/wdd231/refs/heads/main/camara/dados/membros.json';
 
 const cartoes = document.querySelector('.cartoes-membros');
 
@@ -14,12 +14,16 @@ const exibirMembros = (membros) => {
     membros.forEach((membro) => {
 
         let cartao = document.createElement('section');
+        cartao.classList.add('cartao'); /*Bem mais simples do que criar cada cartão separadamente.*/
+
+
         let NomeDaEmpresa = document.createElement('h2');
         let retrato = document.createElement('img');
         let NumeroDetelefone = document.createElement('p');
         let Nivel_de_associação = document.createElement('p');
         let Produto_servico_oferecido = document.createElement('p');
-        let URL_do_site = document.createElement('a');
+        let URL_do_site = document.createElement('a')
+       
 
         // Nome da empresa
         NomeDaEmpresa.textContent = membro.NomeDaEmpresa;
