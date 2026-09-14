@@ -14,13 +14,13 @@
     }
 
     .navegacao{
-        
+
     display: block;
     margin-top: 25px;
 
    }
 
-  .navegacao ul {
+   .navegacao ul {
 
     display: flex;
     gap: 3rem;
@@ -29,7 +29,7 @@
 }
 
 /********** coloca isso para modifica a cor atrás dos nomes no Menu **********/
-   .navegacao a:hover { /*quando passo o mousse em cima fica uma cor selecionada*/
+    .navegacao a:hover { /*quando passo o mousse em cima fica uma cor selecionada*/
     padding: 10px;
    }
 
