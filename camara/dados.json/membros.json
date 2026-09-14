@@ -7,7 +7,7 @@
       "Nome_de_arquivo_de_imagem": "brisatech.webp",
       "Nivel_de_associação": 3,
       "Produto_servico_oferecido": "Sistemas de gestão empresarial",
-      "URLs_de_sites":":https://brisatech.com.br"
+      "URL_do_site":":https://brisatech.com.br"
     },
      {
       "NomeDaEmpresa": "Paraíba Verde Agricultura Urbana",
@@ -16,7 +16,7 @@
       "Nome_de_arquivo_de_imagem": "pbverde.webp",
       "Nivel_de_associação": 2,
       "Produto_servico_oferecido":"Hortas urbanas e kits de cultivo" ,
-      "URLs_de_sites":"https://pbverde.com.br"
+      "URL_do_site":"https://pbverde.com.br"
     },
      {
       "NomeDaEmpresa": "Oceano Norte Turismo & Passeios",
@@ -25,7 +25,7 @@
       "Nome_de_arquivo_de_imagem": "oceanonorte.webp",
       "Nivel_de_associação": 3,
       "Produto_servico_oferecido": "Passeios turísticos e trilhas guiadas",
-      "URLs_de_sites":"https://oceanonorte.com.br "
+      "URL_do_site":"https://oceanonorte.com.br "
     },
  {
       "NomeDaEmpresa": "Casa da Borborema Artesanato",
@@ -34,7 +34,7 @@
       "Nome_de_arquivo_de_imagem": "casaborborema.webp",
       "Nivel_de_associação": 1,
       "Produto_servico_oferecido": "Artesanato regional e peças decorativas",
-      "URLs_de_sites":"https://casaborborema.com.br"
+      "URL_do_site":"https://casaborborema.com.br"
     },
  {
       "NomeDaEmpresa": "Sol & Sabor Confeitaria Artesanal",
@@ -43,7 +43,7 @@
       "Nome_de_arquivo_de_imagem": "solesabor.webp",
       "Nivel_de_associação": 2,
       "Produto_servico_oferecido": "Doces artesanais e bolos especiais",
-      "URLs_de_sites":"https://solesabor.com.br"
+      "URL_do_site":"https://solesabor.com.br"
     },
      {
       "NomeDaEmpresa": "JampaFit Academia & Bem-Estar",
@@ -52,7 +52,7 @@
       "Nome_de_arquivo_de_imagem": "jampafit.webp",
       "Nivel_de_associação": 1,
       "Produto_servico_oferecido": "Treinamento funcional e pilates",
-      "URLs_de_sites":"https://jampafit.com.br"
+      "URL_do_site":"https://jampafit.com.br"
     },
  {
       "NomeDaEmpresa": "Atlântico Digital Marketing",
@@ -61,7 +61,7 @@
       "Nome_de_arquivo_de_imagem": "atlanticodigital.webp",
       "Nivel_de_associação": 3,
       "Produto_servico_oferecido": "Marketing digital e gestão de redes sociais",
-      "URLs_de_sites":"https://atlanticodigital.com.br"
+      "URL_do_site":"https://atlanticodigital.com.br"
     }
 
 
