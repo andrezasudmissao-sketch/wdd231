@@ -1,5 +1,4 @@
-
-*{ 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,218 +8,180 @@
 
 body {
     font-family: "Arimo", sans-serif;
-    
+
 }
+
 
 :root {
     --cor-primaria: ;
     --cor-secudanria: ;
     --cor-fundo: ;
     --cor-de-texto: ;
-    --fonte-family: ;    
-
+    --fonte-family: ;
 }
-/********** Cabeçalho ***********/
 
-.logo img{
+/********** Cabeçalho ***********/
+.logo img {
     display: block;
     width: 50px;
     height: auto;
     border: 1px solid #000;
     margin-left: 18px;
     margin-top: 2px;
-    
-    
 }
 
- .logomenu {
+
+.logomenu {
     display: flex;
     justify-content: space-around;
     gap: 6rem;
-    background-color: #EEE8AA; /*nome da cor é palegordenrod*/
+    background-color: #EEE8AA;
     padding: 10px;
-    margin-bottom: 5px;/*Tirar quando colocar o MAIN!*/
+
 
 }
 
-/* Ordem desejada */
-.logo {
-  order: 1;
-}
-
-.navegacao {
-  order: 2;
-}
-
-#ham-btn {
-  order: 3;
-}
-
+.logo { order: 1; }
+.navegacao { order: 2; }
+#ham-btn { order: 3; }
 
 .subtitulo {
     display: block;
     font-size: 0.6rem;
     color: #000;
     margin-left: 10px;
-   
 
 }
+
 
 /********** Botão *********/
 .hamburger {
-    background: none; /*botão hamburger sem cor e sem borda*/
+    background: none;
     border: none;
-    cursor: pointer; /*Vira a mãozinha*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /*muda o tamanho do X*/
-
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hamburger::after {
-    content: "\2630"; /*botão hamburger*/
+    content: "\2630";
     font-size: 2rem;
 }
 
-.hamburger.show::after{
-    content: "\00D7"; 
+.hamburger.show::after {
+    content: "\00D7";
 }
 
-/*********menu de navegação************/
-
+/********* Menu de navegação ************/
 .navegacao {
-  display: none;   /* menu começa fechado */
-  background-color: #EEE8AA; /*nome da cor é palegordenrod*/
-  padding: 20px;
-  
+    display: none;
+    background-color: #EEE8AA;
+    padding: 10px;
 }
 
 .navegacao.exibir {
-  display: block;  /* menu abre quando o JS adiciona .exibir */
+    display: block;
 }
 
 
 .navegacao a {
-     line-height: 2;
-     text-decoration: none;
-     color: #000;
-     padding: 8px;
-    
-    
+    line-height: 2;
+    text-decoration: none;
+    color: #000;
+    padding: 8px;
 }
 
-.navegacao ul{
-      list-style: none;
-       
+.navegacao ul {
+    list-style: none;
 }
 
-.navegacao a:hover { /*quando passo o mousse em cima fica uma cor selecionada*/
+.navegacao a:hover {
     background-color: #fff;
     border-radius: 3px;
     border: 1px solid #000;
+    color: #000;
 }
 
-/******* cartões *******/
-
-.cartoes-membros{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 8px;
-  margin: 5px 10px;
-
+/******* Cartões *******/
+.cartoes-membros {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 8px;
+    margin: 5px 10px;
 }
 
 .cartao {
-
-  background-color: #dcdcdc;
-  padding: 15px 10px;
-  text-align: left;
-  border: 1px solid #000;
- 
-
+    background-color: #dcdcdc;
+    padding: 15px 10px;
+    text-align: left;
+    border: 1px solid #000;
 }
 
 .cartao h2 {
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 12px;
-  border-bottom: 1px solid #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #000;
 }
 
-/* imagem à direita, texto à esquerda */
+
 .info {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: left;
-  align-items: flex-start;
-  gap: 15px;
-  
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 15px;
 }
 
-/* textos em coluna */
+
 .texto {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .texto p {
-  font-size: 13px;
-  line-height: 1.4;
-  margin: 0;
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 0;
 }
 
 
 .texto strong {
-
-  font-weight: bold;
-
+    font-weight: bold;
 }
 
 
 .info img {
-
-  width: 80px;
-  height: 80px;
-  border: 1px solid #000;
-  object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+    object-fit: cover;
 }
-.info a{
 
-  text-decoration: none;
-  font-weight: 700;
-  text-align: left;
-  color:darkgreen;
-  padding: 8px;
 
+.info a {
+    text-decoration: none;
+    font-weight: 700;
+    text-align: left;
+    color: darkgreen;
+    padding: 8px;
 }
 
 a:hover {
-    
+
     color: #fff;
 }
- 
 
+/*********** Footer *********/
+footer {
 
-/*********** footer *********/
-
-footer{
     background-color: #EEE8AA;
     padding: 10px;
-    align-items: center;
     text-align: center;
     font-size: 14px;
 }
 
-/* Ordem desejada */
-.contato {
-  order: 1;
-}
-
-.social {
-  order: 2;
-
-}
-
-.projeto {
-  order: 3;
-}
+.contato { order: 1; }
+.social { order: 2; }
+.projeto { order: 3; }

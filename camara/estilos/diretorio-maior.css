@@ -8,19 +8,20 @@
 
     
     .hamburger {
-        display: none;  /* some o botão no notebook*/
+    
+    display: none;  /* some o botão no notebook*/
+
     }
 
-    .navegacao {
+    .navegacao{
+        
     display: block;
-    
-   }
-
-   .navegacao{
     margin-top: 25px;
+
    }
 
   .navegacao ul {
+
     display: flex;
     gap: 3rem;
     align-items: center; /*Desceu(estava muito em cima) e foi para o centro*/
@@ -35,38 +36,37 @@
 
 /******** main cartoes *********/
 
-.info a{
+  .info a{
 
   padding: 10px;
 
+
 }
-
-
 
 
 
 
 /******** footer e redes sociais *********/
-.icone-redes {
+   .icone-redes {
   width: 30px; 
   height: auto;
 }
  
-footer{
+  footer{
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 5px;
 
 }
 
-.contato {
+  .contato {
     text-align: left;
     font-size: 12px;
     line-height: 25px;
     
 
 }
-.projeto{ text-align: right;
+  .projeto{ text-align: right;
     font-size: 12px;
     line-height: 25px;
 
