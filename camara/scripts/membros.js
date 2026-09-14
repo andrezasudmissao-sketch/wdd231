@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/andrezasudmissao-sketch/wdd231/refs/heads/main/camara/dados.json/membros.json';
+const url = 'https://raw.githubusercontent.com/andrezasudmissao-sketch/wdd231/refs/heads/main/camara/dados/membros.json';
 
 const cartoes = document.querySelector('.cartoes-membros');
 
