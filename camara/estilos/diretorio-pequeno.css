@@ -13,11 +13,11 @@ body {
 
 
 :root {
-    --cor-primaria: ;
-    --cor-secudanria: ;
-    --cor-fundo: ;
-    --cor-de-texto: ;
-    --fonte-family: ;
+    --cor-primaria: #104E8b ;
+    --cor-secudanria:#fff ;
+    --cor-fundo:#4FA3D1 ;
+    --cor-de-texto:#000 ;
+    --fonte-family:"Arimo" ;
 }
 
 /********** Cabeçalho ***********/
