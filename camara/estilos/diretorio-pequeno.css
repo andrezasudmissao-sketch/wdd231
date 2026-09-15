@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 6rem;
-    background-color: #EEE8AA;
+    background-color: #104E8b;
     padding: 10px;
 
 
@@ -48,12 +48,13 @@ body {
 .subtitulo {
     display: block;
     font-size: 0.6rem;
-    color: #000;
+    color: #fff;
     margin-left: 10px;
 
 }
 .titulo{
     font-weight: bold;
+    color: #fff;
 }
 
 /********** Botão *********/
@@ -67,16 +68,19 @@ body {
 .hamburger::after {
     content: "\2630";
     font-size: 2rem;
+    color: #fff;
 }
 
 .hamburger.show::after {
     content: "\00D7";
 }
 
+
+
 /********* Menu de navegação ************/
 .navegacao {
     display: none;
-    background-color: #EEE8AA;
+    background-color: #104E8b;
     padding: 10px;
 }
 
@@ -88,7 +92,7 @@ body {
 .navegacao a {
     line-height: 2;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     padding: 8px;
     font-weight: bold;
     
@@ -99,10 +103,10 @@ body {
 }
 
 .navegacao a:hover {
-    background-color: #fff;
+    background-color: #4FA3D1;
     border-radius: 3px;
     border: 1px solid #000;
-    color: #000;
+    color: #fff;
 }
 
 /******* Cartões *******/
@@ -113,7 +117,7 @@ body {
 }
 
 .cartao {
-    background-color: #dcdcdc;
+    background-color: #b1d7ec;
     padding: 15px 10px;
     text-align: left;
     border: 1px solid #000;
@@ -144,7 +148,7 @@ body {
 }
 
 .texto p {
-    font-size: 13px;
+    font-size: 10px;
     line-height: 1.4;
     margin: 0;
 }
@@ -156,8 +160,8 @@ body {
 
 
 .info img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border: 1px solid #000;
     object-fit: cover;
 }
@@ -167,7 +171,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     text-align: left;
-    color: darkgreen;
+    color: #E67E22;
     padding: 8px;
 }
 
@@ -179,7 +183,8 @@ a:hover {
 /*********** Footer *********/
 footer {
 
-    background-color: #EEE8AA;
+    background-color: #104E8b;
+    color: #fff;
     padding: 10px;
     text-align: center;
     font-size: 14px;
@@ -199,18 +204,20 @@ footer {
 }
 
 button {
-    background-color: #EEE8AA;
+    background-color: #104E8b;
     font-weight: 600;
     margin-right: 10px;
     padding: 6px;
-
-
-}
-
-button:hover {
-    background-color: darkgreen;
     color: #fff;
+
+
 }
+.view-toggle button:hover {
+    background-color: #E67E22;
+   
+}
+
+
 .cartoes-membros.list {
    display: flex;
    flex-direction: column;

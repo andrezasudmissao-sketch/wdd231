@@ -75,20 +75,32 @@
 /******** grade e lista *********/
 
 .cartoes-membros.list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
 }
 .cartoes-membros.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 16px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 16px;
 }
 .cartao {
-    background-color: #dcdcdc;
+    background-color: #D5D8DC;
     padding: 15px 10px;
     text-align: left;
     border: 1px solid #000;
 }
+.info img {
+    width: 80px;
+    height: 80px;
+   
+}
 
+.cartao h2 {
+    font-size: 16px;
+
+}
+.texto p {
+    font-size: 13px;
+}
 }
