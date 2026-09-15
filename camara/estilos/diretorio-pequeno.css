@@ -25,7 +25,7 @@ body {
     display: block;
     width: 50px;
     height: auto;
-    border: 1px solid #000;
+    border: 1px solid var(--cor-de-texto);
     margin-left: 18px;
     margin-top: 2px;
 }
@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 6rem;
-    background-color: #104E8b;
+    background-color: var(--cor-primaria);
     padding: 10px;
 
 
@@ -48,13 +48,13 @@ body {
 .subtitulo {
     display: block;
     font-size: 0.6rem;
-    color: #fff;
+    color: var(--cor-secudanria);
     margin-left: 10px;
 
 }
 .titulo{
     font-weight: bold;
-    color: #fff;
+    color: var(--cor-secudanria);
 }
 
 /********** Botão *********/
@@ -68,7 +68,7 @@ body {
 .hamburger::after {
     content: "\2630";
     font-size: 2rem;
-    color: #fff;
+    color: var(--cor-secudanria);
 }
 
 .hamburger.show::after {
@@ -80,7 +80,7 @@ body {
 /********* Menu de navegação ************/
 .navegacao {
     display: none;
-    background-color: #104E8b;
+    background-color: var(--cor-primaria);
     padding: 10px;
 }
 
@@ -92,7 +92,7 @@ body {
 .navegacao a {
     line-height: 2;
     text-decoration: none;
-    color: #fff;
+    color: var(--cor-secudanria);
     padding: 8px;
     font-weight: bold;
     
@@ -103,10 +103,10 @@ body {
 }
 
 .navegacao a:hover {
-    background-color: #4FA3D1;
+    background-color: var(--cor-fundo);
     border-radius: 3px;
-    border: 1px solid #000;
-    color: #fff;
+    border: 1px solid var(--cor-de-texto);
+    color: var(--cor-secudanria);
 }
 
 /******* Cartões *******/
@@ -120,7 +120,7 @@ body {
     background-color: #b1d7ec;
     padding: 15px 10px;
     text-align: left;
-    border: 1px solid #000;
+    border: 1px solid var(--cor-de-texto);
 }
 
 .cartao h2 {
@@ -128,7 +128,7 @@ body {
     font-weight: bold;
     text-align: center;
     margin-bottom: 12px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--cor-de-texto);
 }
 
 
@@ -162,7 +162,7 @@ body {
 .info img {
     width: 60px;
     height: 60px;
-    border: 1px solid #000;
+    border: 1px solid var(--cor-de-texto);
     object-fit: cover;
 }
 
@@ -177,17 +177,18 @@ body {
 
 a:hover {
 
-    color: #fff;
+    color: var(--cor-secudanria);
 }
 
 /*********** Footer *********/
 footer {
 
-    background-color: #104E8b;
-    color: #fff;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secudanria);
     padding: 10px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 2;
 }
 
 .contato { order: 1; }
@@ -204,11 +205,11 @@ footer {
 }
 
 button {
-    background-color: #104E8b;
+    background-color: var(--cor-primaria);
     font-weight: 600;
     margin-right: 10px;
     padding: 6px;
-    color: #fff;
+    color: var(--cor-secudanria);
 
 
 }
