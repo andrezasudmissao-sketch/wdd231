@@ -107,8 +107,7 @@ body {
 
 /******* Cartões *******/
 .cartoes-membros {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
     gap: 8px;
     margin: 5px 10px;
 }
@@ -121,7 +120,7 @@ body {
 }
 
 .cartao h2 {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 12px;
@@ -189,3 +188,44 @@ footer {
 .contato { order: 1; }
 .social { order: 2; }
 .projeto { order: 3; }
+
+
+/********* Listas e grades ***********/
+
+.view-toggle{
+    text-align: right;
+    margin-top: 10px;
+    
+}
+
+button {
+    background-color: #EEE8AA;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 6px;
+
+
+}
+
+button:hover {
+    background-color: darkgreen;
+    color: #fff;
+}
+.cartoes-membros.list {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+.cartoes-membros.grid {
+   display: grid;
+   grid-template-columns:auto auto;
+   gap: 16px;
+} 
+
+
+
+
+
+
+
+
