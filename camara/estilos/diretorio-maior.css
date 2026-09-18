@@ -33,7 +33,14 @@
     padding: 10px;
    }
 
-   
+/****** botão CTA ******/
+.btn-cta{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+  
+}
+
 
 
 /******** footer e redes sociais *********/

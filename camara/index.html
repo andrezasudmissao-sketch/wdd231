@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diretório</title>
+    <meta name="description" content="Uma câmara de comércio é uma organização local de empresas que trabalham juntas para fortalecer os interesses comerciais do grupo.">
+    <meta name="author" content="Andreza Gomes">
+    <meta property="og:title" content="Fcebook">
+    <meta property="og:description" content="Facebook é uma mídia social e rede social virtual lançada em 4 de fevereiro de 2004, operado e de propriedade privada da Meta, Inc.">
+    <meta property="og:image" content="https://andrezasudmissao-sketch.github.io/wdd231/camara/imagens/face-og.webp">
+    <meta property="og:url" content="https://andrezasudmissao-sketch.github.io/wdd231/">
+
+
+    <link rel="stylesheet" href="estilos/diretorio-pequeno.css">
+    <link rel="stylesheet" href="estilos/diretorio-maior.css">
+   
+    <script src="scripts/datahora.js" defer ></script>
+    <script src="scripts/button.js" defer ></script>
+    
+
+
+    <link rel="icon" href="camara-favicon.ico" type="image/x-icon">
+   
+   
+    <!--Fonts google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+    <header> 
+        
+    <div class="logomenu">
+        <div class="logo">
+          <img src="imagens/solcamara.webp" alt="logo de cada" width="510" height="510">
+          <span class="titulo">Costa do Sol</span>
+          <span class="subtitulo">Câmara de Comércio</span>
+        </div>
+
+        <button id="ham-btn" class="hamburger"></button>
+
+        <nav id="barra-navegacao" class="navegacao">
+         <ul>
+            <li><a href="#">Página Inicial</a></li>
+            <li><a href="#" aria-current="page">Sobre</a></li>
+            <li><a href="#">Diretório</a></li>
+            <li><a href="#">Associe-se</a></li>
+         </ul>
+        </nav>
+
+    </div>
+
+     <div class="hero">
+            <picture>
+                <source srcset="imagens/hero-grande.webp" media="(min-width: 1000px)">
+                <source srcset="imagens/hero-media.webp" media="(min-width: 500px)">
+                <img src="imagens/hero-pequeno.webp" alt="imagem Hero" width="500" height="250">
+            </picture>
+        </div>
+
+       <div class="btn-cta">
+         <a href="#" class="btn-download">Saiba Mais</a>
+       </div>
+
+     </header>
+
+    <main>
+
+        <h1>Início</h1>
+        <div>
+            <section class="Eventos">
+                <h2>Eventos</h2>
+                <p><strong>Palestra: Turismo Sustentável na Costa do Sol</strong></p>
+                    <p>Data: 12 de outubro</p>
+                    <p>Horário: 9h às 10h30</p>
+                    <p>Local: Auditório da Câmara de Comércio</p>
+                    <p><strong>Palestrante:</strong>Mariana Albuquerque, especialista em ecoturismo e gestão ambiental.</p>
+
+                    <p><strong>Mini Palestra: Marketing Local para Pequenos Negócios</strong></p>
+                    <p>Data: 30 de outubro</p>
+                    <p>Horário: 10h às 11h</p>
+                    <p>Local: Sala de Reuniões 2</p>
+                    <p><strong>Palestrante:</strong> João Pedro Farias, especialista em marketing digital para microempresas.</p>
+            </section>
+     
+
+        </div>
+
+    </main>
+    
+    <footer>
+     
+        <div class="contato">
+       <h2>Câmara de Comércio Costa do Sol</h2>
+           <p>Rua do Sol, 123 – Costa do Sol - PB</p>
+           <p>(83) 99999-9999</p>
+           <p>comercio.costadosol@gmail.com</p>
+       </div>
+
+         <div class="social">
+            <a href="https://linkedin.com" target="_blank"><img src="imagens/linkedin.svg" alt="logo do linkedin" class="icone-redes"></a>
+            <a href="https://youtube.com" target="_blank"><img src="imagens/youtube.svg" alt="logo do github" class="icone-redes"></a>
+            <a href="https://x.com" target="_blank"><img src="imagens/twitter-x.svg" alt="logo do twitter" class="icone-redes"></a>
+        </div>
+
+
+       <div class="projeto">
+          <p>Projeto de Aula WDD231</p>
+          <p>Andreza Gomes França</p>
+          <p>Costa do Sol — Câmara de Comércio</p>
+          <p id="ultimaModificacao"></p>
+          © <span id="anoatual"></span> 
+          </div>
+         
+    </footer>
+    <script src="scripts/gridelista.js"></script>
+</body>
+</html>
