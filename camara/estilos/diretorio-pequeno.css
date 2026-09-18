@@ -145,7 +145,23 @@ body {
 }
 
 
+/***** Eventos *******/
 
+.Eventos{
+    border: 1px solid #000;
+    line-height: 1.5;   
+    font-size: 12px;
+}
+
+.Eventos h2{
+    background-color: #104E8b;
+    color: #fff;
+    padding: 5px;
+}
+
+.Eventos p{
+    padding: 2px 10px;
+}
 
 /******* Cartões *******/
 .cartoes-membros {
