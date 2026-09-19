@@ -9,6 +9,7 @@
      .navegacao{
 
     display: block;
+    order: 2; 
     
 
    }
@@ -37,7 +38,7 @@
    }
 
 /****** botão CTA ******/
-.btn-cta a{
+   .btn-cta a{
     margin-top: 6rem;
   
   
@@ -51,7 +52,7 @@
   height: auto;
 }
  
-  footer{
+   footer{
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 5px;
@@ -73,34 +74,34 @@
 
 /******** grade e lista *********/
 
-.cartoes-membros.list {
+  .cartoes-membros.list {
    display: flex;
    flex-direction: column;
    gap: 16px;
    
 }
-.cartoes-membros.grid {
+  .cartoes-membros.grid {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
    gap: 16px;
 }
-.cartao {
+  .cartao {
 
     padding: 15px 10px;
     text-align: left;
     border: 1px solid #000;
 }
-.info img {
+  .info img {
     width: 80px;
     height: 80px;
    
 }
 
-.cartao h2 {
+  .cartao h2 {
     font-size: 16px;
 
 }
-.texto p {
+  .texto p {
     font-size: 13px;
 }
 
