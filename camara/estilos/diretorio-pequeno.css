@@ -13,11 +13,11 @@ body {
 
 
 :root {
-    --cor-primaria: #104E8b ;
-    --cor-secudanria:#fff ;
-    --cor-fundo:#4FA3D1 ;
-    --cor-de-texto:#000 ;
-    --fonte-family:"Arimo" ;
+    --cor-primaria: #104E8b;
+    --cor-secudanria:#fff;
+    --cor-fundo:#E8EEF5;
+    --cor-de-texto:#000;
+    --fonte-family:"Arimo";
 }
 
 /********** Cabeçalho ***********/
@@ -106,7 +106,7 @@ body {
     background-color: var(--cor-fundo);
     border-radius: 3px;
     border: 1px solid var(--cor-de-texto);
-    color: var(--cor-secudanria);
+    color: var(--cor-de-texto);
 }
 /********imagem hero **********/
 
@@ -126,8 +126,8 @@ body {
     position: absolute;
     top: 45%;
     left: 65%;
-    background-color: #4FA3D1;
-    color: #fff;
+    background-color: var(--cor-fundo);
+    color:var(--cor-de-texto);
     padding: 10px 22px;
     text-decoration: none;
     font-weight: 600;
@@ -135,7 +135,7 @@ body {
 }
 
 .btn-cta a:hover{
-    background-color: #E67E22;
+    background-color: var(--cor-secudanria) ;
 }
 
 /***** imagem hero ******/
@@ -148,14 +148,14 @@ body {
 /***** Eventos *******/
 
 .Eventos{
-    border: 1px solid #000;
+    border: 1px solid var(--cor-de-texto);
     line-height: 1.5;   
     font-size: 12px;
 }
 
 .Eventos h2{
-    background-color: #104E8b;
-    color: #fff;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secudanria);
     padding: 5px;
 }
 
@@ -171,7 +171,7 @@ body {
 }
 
 .cartao {
-    background-color: #b1d7ec;
+    background-color: var(--cor-fundo);
     padding: 15px 10px;
     text-align: left;
     border: 1px solid var(--cor-de-texto);
@@ -225,7 +225,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     text-align: left;
-    color: #E67E22;
+    color: var(--cor-de-texto);
     padding: 8px;
 }
 
@@ -268,7 +268,8 @@ button {
 
 }
 .view-toggle button:hover {
-    background-color: #E67E22;
+    background-color: var(--cor-fundo) ;
+    color: var(--cor-de-texto);
    
 }
 
