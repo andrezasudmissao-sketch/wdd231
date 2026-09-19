@@ -14,10 +14,10 @@ body {
 
 
 :root {
-    --cor-primaria: rgb(43 43 43);     /* cinza escuro */
-    --cor-secundaria: #FFFFFF;   /* branco */
-    --cor-de-texto: #000000;     /* preto */
-    --cor-destaque: #104E8B;     /* azul escuro opcional */
+    --cor-primaria: rgb(43 43 43);   /* cinza escuro */
+    --cor-secundaria: #FFFFFF;       /* branco */
+    --cor-de-texto: #000000;         /* preto */
+    --cor-destaque: #104E8B;         /* azul escuro opcional */
 }
 
 /********** Cabeçalho ***********/
@@ -39,8 +39,10 @@ body {
     background-color: var(--cor-primaria);
     padding: 10px;
 
-
+    
 }
+
+
 
 
 .logo { order: 1; }
@@ -54,6 +56,7 @@ body {
     margin-left: 10px;
 
 }
+
 
 .titulo {
     font-weight: bold;
@@ -90,6 +93,7 @@ body {
 
 .navegacao.exibir {
     display: block;
+
 }
 
 
@@ -114,7 +118,7 @@ body {
 }
 
 /********imagem hero **********/
-.hero img { 
+.hero img {
     width: 100%;
     height: auto;
     display: block;
@@ -151,7 +155,7 @@ body {
 /***** Eventos *******/
 .Eventos {
     border: 1px solid var(--cor-de-texto);
-    line-height: 1.5;   
+    line-height: 1.5;
     font-size: 12px;
 }
 
@@ -258,6 +262,7 @@ footer {
 
 }
 
+
 button {
     background-color: var(--cor-primaria);
     font-weight: 600;
@@ -284,6 +289,7 @@ button {
     grid-template-columns: auto auto;
     gap: 16px;
 }
+
 
 
 
