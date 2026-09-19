@@ -82,6 +82,8 @@ body {
     display: none;
     background-color: var(--cor-primaria);
     padding: 10px;
+    margin-top: auto;
+   
 }
 
 .navegacao.exibir {
