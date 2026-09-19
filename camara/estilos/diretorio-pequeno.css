@@ -17,7 +17,8 @@ body {
     --cor-primaria: rgb(43 43 43);   /* cinza escuro */
     --cor-secundaria: #FFFFFF;       /* branco */
     --cor-de-texto: #000000;         /* preto */
-    --cor-destaque: #8fc2f4;         /* azul escuro opcional */
+    --cor-destaque: #8abff4;         /* azul escuro opcional */
+    --cor-destaque2: #dce5ef;
 }
 
 header {
@@ -196,7 +197,7 @@ header * {
 }
 
 .cartao {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-destaque2);
     padding: 15px 10px;
     text-align: left;
     border: 1px solid var(--cor-de-texto);
