@@ -44,9 +44,9 @@ header * {
 .logomenu {
 
     display: flex;
-    justify-content: space-around;
-    gap: 6rem;
-    
+    justify-content: space-between; /*Isso deixa o menu organizado*/
+    align-items: center;
+    background-color: var(--cor-primaria);
     padding: 10px;
 
 }
