@@ -271,7 +271,7 @@ button {
 }
 .view-toggle button:hover {
     background-color: var(--cor-fundo) ;
-    color: var(--cor-de-texto);
+    color: var(--cor-primaria);
    
 }
 
