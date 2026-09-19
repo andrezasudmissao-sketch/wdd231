@@ -1,19 +1,12 @@
 
 @media only screen and (min-width: 38rem) {
+   
     header, main, nav, footer {
         max-width: 900px;
         margin: 0 auto;      
     }
 
-
-    
-    .hamburger {
-    
-    display: none;  /* some o botão no notebook*/
-
-    }
-
-    .navegacao{
+     .navegacao{
 
     display: block;
     
@@ -26,7 +19,17 @@
     gap: 3rem;
     align-items: center; /*Desceu(estava muito em cima) e foi para o centro*/
 
-}
+  }
+
+
+    
+    .hamburger {
+    
+    display: none;  /* some o botão no notebook*/
+
+    }
+
+   
 
 /********** coloca isso para modifica a cor atrás dos nomes no Menu **********/
     .navegacao a:hover { /*quando passo o mousse em cima fica uma cor selecionada*/
