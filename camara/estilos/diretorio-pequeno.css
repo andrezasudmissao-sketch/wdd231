@@ -8,16 +8,16 @@
 
 body {
     font-family: "Arimo", sans-serif;
-
+    background-color: var(--cor-secundaria);
+    color: var(--cor-de-texto);
 }
 
 
 :root {
-    --cor-primaria: #104E8b;
-    --cor-secudanria:#fff;
-    --cor-fundo:#E8EEF5;
-    --cor-de-texto:#000;
-    --fonte-family:"Arimo";
+    --cor-primaria: #2B2B2B;     /* cinza escuro */
+    --cor-secundaria: #FFFFFF;   /* branco */
+    --cor-de-texto: #000000;     /* preto */
+    --cor-destaque: #104E8B;     /* azul escuro opcional */
 }
 
 /********** Cabeçalho ***********/
@@ -28,6 +28,7 @@ body {
     border: 1px solid var(--cor-de-texto);
     margin-left: 18px;
     margin-top: 2px;
+
 }
 
 
@@ -41,6 +42,7 @@ body {
 
 }
 
+
 .logo { order: 1; }
 .navegacao { order: 2; }
 #ham-btn { order: 3; }
@@ -48,13 +50,14 @@ body {
 .subtitulo {
     display: block;
     font-size: 0.6rem;
-    color: var(--cor-secudanria);
+    color: var(--cor-secundaria);
     margin-left: 10px;
 
 }
-.titulo{
+
+.titulo {
     font-weight: bold;
-    color: var(--cor-secudanria);
+    color: var(--cor-secundaria);
 }
 
 /********** Botão *********/
@@ -68,14 +71,12 @@ body {
 .hamburger::after {
     content: "\2630";
     font-size: 2rem;
-    color: var(--cor-secudanria);
+    color: var(--cor-secundaria);
 }
 
 .hamburger.show::after {
     content: "\00D7";
 }
-
-
 
 /********* Menu de navegação ************/
 .navegacao {
@@ -83,8 +84,9 @@ body {
     background-color: var(--cor-primaria);
     padding: 10px;
     margin-top: auto;
-   
+
 }
+
 
 .navegacao.exibir {
     display: block;
@@ -94,10 +96,10 @@ body {
 .navegacao a {
     line-height: 2;
     text-decoration: none;
-    color: var(--cor-secudanria);
+    color: var(--cor-secundaria);
     padding: 8px;
     font-weight: bold;
-    
+
 }
 
 .navegacao ul {
@@ -105,75 +107,73 @@ body {
 }
 
 .navegacao a:hover {
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-secundaria);
     border-radius: 3px;
     border: 1px solid var(--cor-de-texto);
     color: var(--cor-de-texto);
 }
+
 /********imagem hero **********/
-
-
-.hero img{ 
-
-  width: 100%;
-  height: auto;
-  display: block;
+.hero img { 
+    width: 100%;
+    height: auto;
+    display: block;
 
 }
 
 
 /******** Botão CTA *******/
-
-.btn-cta a{
+.btn-cta a {
     position: absolute;
     top: 45%;
     left: 65%;
-    background-color: var(--cor-fundo);
-    color:var(--cor-de-texto);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-de-texto);
     padding: 10px 22px;
     text-decoration: none;
     font-weight: 600;
     border-radius: 4px;
 }
 
-.btn-cta a:hover{
-    background-color: var(--cor-secudanria) ;
+.btn-cta a:hover {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 /***** imagem hero ******/
 
 .hero {
-    position:relative;
+
+    position: relative;
 }
 
 
 /***** Eventos *******/
-
-.Eventos{
+.Eventos {
     border: 1px solid var(--cor-de-texto);
     line-height: 1.5;   
     font-size: 12px;
 }
 
-.Eventos h2{
+.Eventos h2 {
     background-color: var(--cor-primaria);
-    color: var(--cor-secudanria);
+    color: var(--cor-secundaria);
     padding: 5px;
 }
 
-.Eventos p{
+.Eventos p {
     padding: 2px 10px;
 }
 
 /******* Cartões *******/
 .cartoes-membros {
-    
+
     gap: 8px;
     margin: 5px 10px;
 }
 
 .cartao {
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-secundaria);
     padding: 15px 10px;
     text-align: left;
     border: 1px solid var(--cor-de-texto);
@@ -232,15 +232,14 @@ body {
 }
 
 a:hover {
-
-    color: var(--cor-secudanria);
+    color: var(--cor-secundaria);
 }
 
 /*********** Footer *********/
 footer {
 
     background-color: var(--cor-primaria);
-    color: var(--cor-secudanria);
+    color: var(--cor-secundaria);
     padding: 10px;
     text-align: center;
     font-size: 12px;
@@ -253,11 +252,10 @@ footer {
 
 
 /********* Listas e grades ***********/
-
-.view-toggle{
+.view-toggle {
     text-align: right;
     margin-top: 10px;
-    
+
 }
 
 button {
@@ -265,27 +263,27 @@ button {
     font-weight: 600;
     margin-right: 10px;
     padding: 6px;
-    color: var(--cor-secudanria);
-
-
+    color: var(--cor-secundaria);
 }
+
 .view-toggle button:hover {
-    background-color: var(--cor-fundo) ;
+    background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
-   
+
 }
 
 
 .cartoes-membros.list {
-   display: flex;
-   flex-direction: column;
-   gap: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
+
 .cartoes-membros.grid {
-   display: grid;
-   grid-template-columns:auto auto;
-   gap: 16px;
-} 
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+}
 
 
 
