@@ -17,7 +17,16 @@ body {
     --cor-primaria: rgb(43 43 43);   /* cinza escuro */
     --cor-secundaria: #FFFFFF;       /* branco */
     --cor-de-texto: #000000;         /* preto */
-    --cor-destaque: #104E8B;         /* azul escuro opcional */
+    --cor-destaque: #8fc2f4;         /* azul escuro opcional */
+}
+
+header {
+    background-color: var(--cor-primaria);
+}
+
+header,
+header * {
+    color: var(--cor-secundaria) 
 }
 
 /********** Cabeçalho ***********/
@@ -33,13 +42,13 @@ body {
 
 
 .logomenu {
+
     display: flex;
     justify-content: space-around;
     gap: 6rem;
-    background-color: var(--cor-primaria);
+
     padding: 10px;
 
-    
 }
 
 
@@ -111,10 +120,10 @@ body {
 }
 
 .navegacao a:hover {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-destaque);
     border-radius: 3px;
     border: 1px solid var(--cor-de-texto);
-    color: var(--cor-de-texto);
+    color: var(--cor-secundaria);
 }
 
 /********imagem hero **********/
