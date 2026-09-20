@@ -55,13 +55,15 @@ function mostrarTresHoras(dados) {
     const meioDia = dados.list.filter(item => item.dt_txt.includes("12:00:00"))
     const tresDias = meioDia.slice(0, 3);
      tresDias.forEach((dia, index) => {
-
+           // Seleciona dos 3 dias 
+           //index = 0 → #dia1
+           // index = 1 → #dia2
+           //index = 2 → #dia3
+           const bloco = document.querySelector(`#dia${index + 1}`);
         // 3.1 Extrair data, temperatura, descrição, ícone
 
         // 3.2 Formatar a data (dia da semana)
 
-        // 3.3 Selecionar o elemento HTML correspondente ao dia
-        // (dia1, dia2, dia3)
 
         // 3.4 Inserir no HTML:
         // - data formatada
@@ -69,8 +71,25 @@ function mostrarTresHoras(dados) {
         // - descrição
         // - ícone
     });
-
 }
+
+    async function apiFetchPrevisao() {
+  try {
+    const resposta = await fetch(Urltrehoras);
+    if (resposta.ok) {
+      const dados = await resposta.json();
+      console.log(dados); 
+      mostrarTresHoras(dados);
+
+    } else {
+        throw Error(await resposta.text());
+    }
+  } catch (erro) {
+      console.log(erro);
+  }
+}
+
+
 
 
 apiFetchPrevisao() 
