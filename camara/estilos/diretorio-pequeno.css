@@ -174,20 +174,64 @@ header * {
 
 /***** Eventos *******/
 .Eventos {
+    
     border: 1px solid var(--cor-de-texto);
     line-height: 1.5;
     font-size: 12px;
+    background-color: var(--cor-destaque2);
+    
 }
 
 .Eventos h2 {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     padding: 5px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .Eventos p {
-    padding: 2px 10px;
+    padding: 3px 10px;
+    
 }
+
+.Eventos p strong {
+    font-size: 16px;
+}
+
+/*Clima */
+
+.painel {
+    
+  border: 1px solid #000000;
+  text-align: center;
+  background-color: var(--cor-destaque2);
+
+   
+}
+
+.painel h3{
+    margin-top: 20px;
+    
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    padding: 5px;
+  
+   
+}
+
+.painel h2{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-size: 18px;
+    padding: 8px;
+     
+}   
+
+
 
 /******* Cartões *******/
 .cartoes-membros {
@@ -268,6 +312,7 @@ footer {
     text-align: center;
     font-size: 12px;
     line-height: 2;
+    margin-top: 8px;
 }
 
 .contato { order: 1; }
@@ -310,6 +355,12 @@ button {
     gap: 16px;
 }
 
+
+
+    
+    
+    
+    
 
 
 

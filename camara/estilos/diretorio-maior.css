@@ -103,6 +103,14 @@
   .texto p {
     font-size: 13px;
 }
+ /*clima*/
 
+ .Eventos-clima > * {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+   
+}
 
 }

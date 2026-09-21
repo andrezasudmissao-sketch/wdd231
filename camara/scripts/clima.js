@@ -3,7 +3,7 @@
 const Meulocal = document.querySelector('#local');
 const MinhaDiscrisao = document.querySelector('#discricao');
 const Atemperaruda = document.querySelector('#temperatura');
-const MinhaImagem = document.querySelector('#imagem');
+const iconeDoClima = document.querySelector('#imagem');
 
 // Criar variaveis necessarias para o URL
 
@@ -49,27 +49,33 @@ apiFetch();
 
 
 function mostrarTresHoras(dados) {
-    dados.list[0].main.temp
-    dados.list[0].weather[0].description
-    dados.list[0].dt_txt
+    
     const meioDia = dados.list.filter(item => item.dt_txt.includes("12:00:00"))
     const tresDias = meioDia.slice(0, 3);
+
      tresDias.forEach((dia, index) => {
-           // Seleciona dos 3 dias 
-           //index = 0 → #dia1
-           // index = 1 → #dia2
-           //index = 2 → #dia3
-           const bloco = document.querySelector(`#dia${index + 1}`);
-        // 3.1 Extrair data, temperatura, descrição, ícone
 
-        // 3.2 Formatar a data (dia da semana)
+        // Seleciona dos 3 dias 
+          const bloco = document.querySelector(`#dia${index + 1}`);
+        //Variaveis
+          const TemperaturaTresdias = dia.main.temp
+          const Adiscricao = dia.weather[0].description
+          const TXT = dia.dt_txt
+          const Icon = dia.weather[0].icon
 
+        // (dia da semana)
+        const Dias = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
+        const indice = new Date(dia.dt_txt).getDay();
+        const DiasdaSemana = Dias[indice];
+        
+        //Essa parte é para aparecer no navegador
+         bloco.innerHTML = `
+            <h3>${DiasdaSemana}</h3>
+            <p>${TemperaturaTresdias}°C</p>
+            <p>${Adiscricao}</p>
+            <img src="https://openweathermap.org/img/w/${Icon}.png" alt="${Adiscricao}">
+        `;
 
-        // 3.4 Inserir no HTML:
-        // - data formatada
-        // - temperatura
-        // - descrição
-        // - ícone
     });
 }
 
