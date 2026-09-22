@@ -28,50 +28,43 @@
     padding: 10px;
    }
    
-
-   .sobre-foto{
-    display: flex;
-    justify-content: space-between; /* separa os blocos */
+/************ Pate onde fica a foto e o texto **********/
   
-  
-   
 
-
-   }
-
-   .eu-btn{
+/* Botão */
+.eu-btn{
     display: flex;
-    justify-content:flex-start; /*alinhe tudo para a direita*/
-    align-items: center; /*Para a distroção da logo imagem. Geralmente imagem fica assim por causa do display flex.*/
+    justify-content:flex-start;
+    align-items: center;
     padding:10px;
-    
+}
 
-    }   
+/* Bloco de texto */
 
-   
-   
-/*Usei o display flex para alinhar os blocos lado a lado*/
-   .sobre {
-   flex: 1; /* ocupa metade do espaço */
-   margin-right: 10px; /* espaço entre os blocos */
-   margin-bottom: 5px;
-  
-  
-   }
+.sobre-foto {
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+}
 
-
-
-  .foto {
-   flex: 1; /* ocupa metade do espaço */
-    border:1px solid #000 ;
+.sobre, .foto {
+    flex: 1;
     margin-bottom: 5px;
+    height: 587px; /* MUDANÇA: altura fixa igual para ambos */
+    overflow: hidden; /* impede que a imagem ultrapasse o bloco */
+}
+
+.foto img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /*Se encaixa perfeitamente no bloco. */
-    
-  } 
+    object-fit: cover; /* corta o excesso sem distorcer */
+    display: block;
+}
 
 
+
+
+/***** button *****/
 
    button{
     padding: 10px 6rem;

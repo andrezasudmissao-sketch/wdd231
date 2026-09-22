@@ -1,68 +1,65 @@
+const categorias = [
+  { tipoDoCurso: "Todos" },
+  { tipoDoCurso: "CSE" },
+  { tipoDoCurso: "WDD" }
+];
 
-  const categorias = [
+const cursos = [
+  { NomeDocurso: "CSE110" },
+  { NomeDocurso: "CSE111" },
+  { NomeDocurso: "CSE210" },
+  { NomeDocurso: "WDD130" },
+  { NomeDocurso: "WDD131" },
+  { NomeDocurso: "WDD231" }
+];
 
-  { tipoDoCurso:"Todos",  },
+const Minhacategoria = document.querySelector('.categorias');
+const Meuscursos = document.querySelector('.cursos');
+const buttons = [];
 
-  { tipoDoCurso:"CSE", },
-
-  { tipoDoCurso:"WDD",}
-
-  ]
-
-
-  const cursos = [
-    { NomeDocurso:"WDD130", },
-
-    { NomeDocurso:"WDD131",},
-
-    {NomeDocurso:"WDD231", }
-
-  ]
-  
-  const Minhacategoria = document.querySelector('.categorias');
-  const Meuscursos = document.querySelector('.cursos');
-
-  const buttons = []; // lista vazia 
-
+// Cria os botões de categoria
 categorias.forEach(cat => {
-  const botao = document.createElement("button"); // cria botão
-  botao.innerText = cat.tipoDoCurso;              // coloca texto
-  Minhacategoria.appendChild(botao);              // adiciona na div
-  buttons.push(botao);                            // guarda no array
+  const botao = document.createElement("button");
+  botao.innerText = cat.tipoDoCurso;
+  botao.classList.add("btn-categoria"); // classe para estilização
+  Minhacategoria.appendChild(botao);
+  buttons.push(botao);
 });
 
-//Para cada botão dentro da lista buttons, execute o código que está aqui dentro:
-  buttons.forEach(btn => {
-//Quando esse botão for clicado, execute o código que está aqui dentro.
+// Adiciona comportamento aos botões
+buttons.forEach(btn => {
   btn.addEventListener('click', () => {
     const categoriaEscolhida = btn.innerText;
     Meuscursos.innerHTML = "";
 
-    
-    cursosFiltrados = [] //lista vazia
+    let cursosFiltrados = [];
 
-     if (categoriaEscolhida === "Todos") {  //Se o botão clicado for ‘Todos’, então não filtre nada. Pegue a lista inteira.
-      cursosFiltrados = cursos;             
+    if (categoriaEscolhida === "Todos") {
+      cursosFiltrados = cursos;
     } else {
-      cursosFiltrados = cursos.filter(c => 
-        c.NomeDocurso.startsWith(categoriaEscolhida)   //Se o botão clicado NÃO for ‘Todos’, filtre a lista. Pegue só os cursos cujo nome começa com a categoria.
+      cursosFiltrados = cursos.filter(c =>
+        c.NomeDocurso.startsWith(categoriaEscolhida)
       );
     }
-    
-     cursosFiltrados.forEach(itemCurso => {
-   const atributo = document.createElement("p"); 
-   atributo.innerText = itemCurso.NomeDocurso;       
-   
-   if (itemCurso.NomeDocurso.startsWith("WDD")) {  //criei esse somente para colocar o background color diferente para os cursos WDD, mas poderia ser feito para todos os cursos.
-     atributo.classList.add("wdd");
-   } 
 
-   Meuscursos.appendChild(atributo);             
-                         
-});
-    
+    // Cria os cartões dos cursos
+    cursosFiltrados.forEach(itemCurso => {
+      const card = document.createElement("div");
+      card.classList.add("card-curso");
+
+      card.innerText = itemCurso.NomeDocurso;
+
+      if (itemCurso.NomeDocurso.startsWith("WDD")) {
+        card.classList.add("wdd");
+      } else if (itemCurso.NomeDocurso.startsWith("CSE")) {
+        card.classList.add("cse");
+      }
+
+      Meuscursos.appendChild(card);
+    });
   });
 });
+
 
 
 
