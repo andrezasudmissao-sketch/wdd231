@@ -5,12 +5,12 @@ const cartoes = document.querySelector('.cartoes-membros');
 async function obterDadosDeMembros() {
     const resposta = await fetch(url);
     const dados = await resposta.json();
-    exibirMembros(dados.membros);
+    exibirMembros(dados.membros, cartoes); /*acrescentei cartoes (modulo)*/
 }
 
 obterDadosDeMembros();
 
-const exibirMembros = (membros) => {
+const exibirMembros = (membros, container) => { /*acrescentei cantanier(módulo)*/
     membros.forEach((membro) => {
 
         let cartao = document.createElement('section');
@@ -61,6 +61,8 @@ const exibirMembros = (membros) => {
         cartao.appendChild(NomeDaEmpresa);
         cartao.appendChild(info);
 
-        cartoes.appendChild(cartao);
+        container.appendChild(cartao); /*troquei cartao.appendchild por contanier.appendchild(módulo)*/
     });
 };
+
+export { exibirMembros };

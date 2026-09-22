@@ -179,6 +179,7 @@ header * {
     line-height: 1.5;
     font-size: 12px;
     background-color: var(--cor-destaque2);
+   
     
 }
 
@@ -199,6 +200,7 @@ header * {
     font-size: 16px;
 }
 
+
 /*Clima */
 
 .painel {
@@ -206,6 +208,8 @@ header * {
   border: 1px solid #000000;
   text-align: center;
   background-color: var(--cor-destaque2);
+  margin-top: 8px;
+  
 
    
 }
@@ -355,6 +359,12 @@ button {
     gap: 16px;
 }
 
+/*Secao-destaque*/
+
+.Secao-destaque {
+ 
+  margin-top: 8px;
+}
 
 
     

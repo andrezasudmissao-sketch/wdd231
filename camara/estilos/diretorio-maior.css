@@ -47,8 +47,8 @@
 
 /******** footer e redes sociais *********/
    .icone-redes {
-  width: 30px; 
-  height: auto;
+   width: 30px; 
+   height: auto;
 }
  
    footer{
@@ -112,5 +112,11 @@
     gap:5px;
    
 }
+
+ .painel {
+        margin-top: 0;
+    }
+
+
 
 }
