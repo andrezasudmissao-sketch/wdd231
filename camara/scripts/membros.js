@@ -1,12 +1,11 @@
-const url = 'https://raw.githubusercontent.com/andrezasudmissao-sketch/wdd231/refs/heads/main/camara/dados/membros.json';
+/*const url = 'https://raw.githubusercontent.com/andrezasudmissao-sketch/wdd231/refs/heads/main/camara/dados/membros.json';
 
 const cartoes = document.querySelector('.cartoes-membros');
 
 async function obterDadosDeMembros() {
     const resposta = await fetch(url);
     const dados = await resposta.json();
-    exibirMembros(dados.membros, cartoes); /*acrescentei cartoes (modulo)*/
-}
+    exibirMembros(dados.membros, cartoes); }/*acrescentei cartoes (modulo) e tbm exportei essa parte para o diretorio.js*/ 
 
 /*obterDadosDeMembros();esse arquivo não deve rodar sozinho.
 Ele é apenas um módulo exportado. */

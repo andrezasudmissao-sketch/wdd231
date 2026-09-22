@@ -4,7 +4,7 @@ import { exibirMembros } from "./membros.js";
 
 const url = 'https://raw.githubusercontent.com/andrezasudmissao-sketch/wdd231/refs/heads/main/camara/dados/membros.json';
 
-async function obterDadosDeTresMembros() {
+async function obterDadosDeMembros(){
     const resposta = await fetch(url);
     const tresMembros = await resposta.json();
     const destaque = tresMembros.membros;
@@ -20,6 +20,6 @@ async function obterDadosDeTresMembros() {
 };
 
 
-obterDadosDeTresMembros()
+obterDadosDeMembros();
 
 
