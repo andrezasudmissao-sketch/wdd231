@@ -23,22 +23,3 @@ async function obterDadosDeTresMembros() {
 obterDadosDeTresMembros()
 
 
-
-
-
-
-
-
-/*
-COMO EXIBIR 3 MEMBROS:
-
-const url = 'https://raw.githubusercontent.com/andrezasudmissao-sketch/wdd231/refs/heads/main/camara/dados/membros.json';
-
-async function obterDadosDeTresMembros() {
-    const resposta = await fetch(url);
-    const tresMembros = await resposta.json();
-    tresMembros.membros.slice(0, 3);
-    const membros = tresMembros.membros.slice(0, 3);
-    console.log(membros);
-
-};*/

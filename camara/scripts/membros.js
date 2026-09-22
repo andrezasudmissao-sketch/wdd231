@@ -8,7 +8,8 @@ async function obterDadosDeMembros() {
     exibirMembros(dados.membros, cartoes); /*acrescentei cartoes (modulo)*/
 }
 
-obterDadosDeMembros();
+/*obterDadosDeMembros();esse arquivo não deve rodar sozinho.
+Ele é apenas um módulo exportado. */
 
 const exibirMembros = (membros, container) => { /*acrescentei cantanier(módulo)*/
     membros.forEach((membro) => {

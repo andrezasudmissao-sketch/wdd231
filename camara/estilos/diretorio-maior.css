@@ -85,7 +85,7 @@
    gap: 16px;
 }
   .cartao {
-
+    flex: 1; /*deixa os cartões no mesmo tamanho*/
     padding: 15px 10px;
     text-align: left;
     border: 1px solid #000;
@@ -116,7 +116,12 @@
  .painel {
         margin-top: 0;
     }
+.Secao-destaque {
+  display: flex;
+  justify-content:space-around;
+  gap:2px;
 
+}
 
 
 }
