@@ -188,6 +188,11 @@ footer {
   flex-wrap: wrap;            /* Permite quebrar para outra linha */
   justify-content: center;    /* Centraliza os cartões */
   gap: 15px;                  /* Espaço entre os cartões */
+  margin-top: 40px;
+  clear: both; /* força ficar abaixo */
+  width: 100%;
+  
+
 }
 
 .card-curso {
@@ -210,6 +215,37 @@ footer {
 .credito{
     text-align: center;
     margin-top: 15px;
+}
+
+.categorias,
+.cursos {
+  border: 1px solid rgb(24, 10, 10);   /* só pra enxergar onde estão */
+  padding: 15px;
+}
+
+
+/****** dialog ******/
+
+dialog {
+  border: 1px solid rgb(0 0 0 / 10%);
+  border-radius: .25rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 3rem #777;
+  width: 90%;
+  max-width: 600px;
+}
+
+::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
+
+dialog button {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  padding: .5rem 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
 }
 
 

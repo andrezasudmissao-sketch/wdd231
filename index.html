@@ -13,6 +13,7 @@
     <script src="scripts/navegacao.js" defer></script>
     <script src="scripts/datahora.js" defer></script>
     <script src="scripts/array.js" defer></script>
+    <script src="scripts/modal.js" defer></script>
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
    
@@ -48,50 +49,53 @@
     <main>
         <h1>Página Inicial</h1>
 
-          <div class="sobre-foto">
-        <section class="sobre">
-            <h2>Sobre mim</h2>
-            <p>Olá, meu nome é Andreza, tenho 31 anos e sou casada há seis anos. Sempre fui apaixonada por animais, animes e jogos,
-            interesses que fazem parte da minha personalidade desde a infância. Tive a oportunidade de realizar uma missão de
-            tempo integral em Teresina, uma experiência que marcou profundamente minha vida e meu crescimento pessoal.
-            Atualmente, estou cursando Desenvolvimento de Software pela BYU, onde tive o privilégio de integrar a primeira turma
-            brasileira, com aulas totalmente online. Essa jornada tem ampliado minhas habilidades, minha visão profissional e meu
-            entusiasmo pelo mundo da tecnologia.
+         <div class="sobre-foto">
 
-            Nasci e vivi toda a minha vida em João Pessoa, na Paraíba, uma cidade que moldou quem eu sou. Ainda assim, carrego 
-            dentro de mim o desejo de conhecer o mundo além das fronteiras que sempre me acompanharam. Sonho em explorar lugares 
-            como a Coreia, o Japão e os Estados Unidos, não apenas pela beleza e cultura, mas pela experiência de crescer, aprender 
-            e enxergar a vida por novos ângulos. Sou movida pela fé, curiosidade e vontade de ir além.
-            Sou uma pessoa determinada, alguém que não desiste facilmente daquilo que acredita. Tenho um carinho especial pelas Escrituras, e estudar cada palavra me fortalece.
-            Gosto de ponderar sobre elas, refletir com calma e deixar que cada ensinamento encontre espaço no meu coração.
-            </p>
-           
-        </section> 
-       
+    <section class="sobre">
+        <h2>Sobre mim</h2>
+        <p>Olá, meu nome é Andreza, tenho 31 anos e sou casada há seis anos. Sempre fui apaixonada por animais, animes e jogos,
+        interesses que fazem parte da minha personalidade desde a infância. Tive a oportunidade de realizar uma missão de
+        tempo integral em Teresina, uma experiência que marcou profundamente minha vida e meu crescimento pessoal.
+        Atualmente, estou cursando Desenvolvimento de Software pela BYU, onde tive o privilégio de integrar a primeira turma
+        brasileira, com aulas totalmente online. Essa jornada tem ampliado minhas habilidades, minha visão profissional e meu
+        entusiasmo pelo mundo da tecnologia.
 
+        Nasci e vivi toda a minha vida em João Pessoa, na Paraíba, uma cidade que moldou quem eu sou. Ainda assim, carrego 
+        dentro de mim o desejo de conhecer o mundo além das fronteiras que sempre me acompanharam. Sonho em explorar lugares 
+        como a Coreia, o Japão e os Estados Unidos, não apenas pela beleza e cultura, mas pela experiência de crescer, aprender 
+        e enxergar a vida por novos ângulos. Sou movida pela fé, curiosidade e vontade de ir além.
+        Sou uma pessoa determinada, alguém que não desiste facilmente daquilo que acredita. Tenho um carinho especial pelas Escrituras, e estudar cada palavra me fortalece.
+        Gosto de ponderar sobre elas, refletir com calma e deixar que cada ensinamento encontre espaço no meu coração.
+        </p>
+    </section>
 
-        <section class="foto">
-            <h2>Minha foto</h2>
+    <section class="foto">
+        <h2>Minha foto</h2>
         <picture>
             <source srcset="imagens/grande.webp" media="(min-width: 1000px)">
             <source srcset="imagens/media.webp" media="(min-width: 500px)">
             <img src="imagens/pequena.webp" alt="imagem Hero" width="500" height="250">
         </picture>
+    </section>
 
-        </section>
-        </div>
-        
-        <div class="certificacao">
+</div>
 
-        <h3>Cursos de certificação Web</h3>
-        <div class="categorias"></div>
-        <div class="cursos"></div>
-        
-        </div>
-         
-         <div class="credito">
-        <p>Total de créditos para os curso listados acima é 6</p>
-        </div>
+<section class="cursos">
+  <div class="certificacao">
+    <h3>Cursos de certificação Web</h3>
+
+    <!-- Botões -->
+    <div class="categorias"></div>
+
+    <!-- Aqui os cursos vão aparecer -->
+    <div class="lista-cursos"></div>
+  </div>
+</section>
+
+
+<div class="credito">
+    <p>Total de créditos para os curso listados acima é 6</p>
+</div>
 
     </main>
 

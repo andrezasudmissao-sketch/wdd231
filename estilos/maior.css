@@ -41,25 +41,36 @@
 
 /* Bloco de texto */
 
+/* Coloca texto e foto lado a lado */
 .sobre-foto {
     display: flex;
-    gap: 10px;
-    align-items: stretch;
-}
-
-.sobre, .foto {
-    flex: 1;
-    margin-bottom: 5px;
-    height: 587px; /* MUDANÇA: altura fixa igual para ambos */
-    overflow: hidden; /* impede que a imagem ultrapasse o bloco */
-}
-
-.foto img {
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* impede que cursos seja engolido */
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* corta o excesso sem distorcer */
-    display: block;
 }
+
+
+/* Faz cada bloco ocupar espaço sem esmagar o outro */
+.sobre {
+    flex: 1;
+}
+
+.foto {
+    flex: 1;
+}
+
+/* Garante que cursos fiquem abaixo */
+.cursos {
+    margin-top: 40px;
+}
+
+/* Apenas estética opcional */
+.sobre p {
+    line-height: 1.6;
+}
+
 
 
 

@@ -14,23 +14,23 @@ const cursos = [
 ];
 
 const Minhacategoria = document.querySelector('.categorias');
-const Meuscursos = document.querySelector('.cursos');
+const Meuscursos = document.querySelector('.lista-cursos'); // ← mudou aqui
 const buttons = [];
 
-// Cria os botões de categoria
+// Cria os botões
 categorias.forEach(cat => {
   const botao = document.createElement("button");
   botao.innerText = cat.tipoDoCurso;
-  botao.classList.add("btn-categoria"); // classe para estilização
+  botao.classList.add("btn-categoria");
   Minhacategoria.appendChild(botao);
   buttons.push(botao);
 });
 
-// Adiciona comportamento aos botões
+// Adiciona comportamento
 buttons.forEach(btn => {
   btn.addEventListener('click', () => {
     const categoriaEscolhida = btn.innerText;
-    Meuscursos.innerHTML = "";
+    Meuscursos.innerHTML = ""; // agora só apaga os cursos, não os botões
 
     let cursosFiltrados = [];
 
@@ -42,11 +42,9 @@ buttons.forEach(btn => {
       );
     }
 
-    // Cria os cartões dos cursos
     cursosFiltrados.forEach(itemCurso => {
       const card = document.createElement("div");
       card.classList.add("card-curso");
-
       card.innerText = itemCurso.NomeDocurso;
 
       if (itemCurso.NomeDocurso.startsWith("WDD")) {
