@@ -3,11 +3,11 @@
     "niveisDeAssociacao": [
          {
      
-    "SemFinsLucrativos": "Associações Sem Fins Lucrativos",
+    "NomedoNivel": "Associações Sem Fins Lucrativos",
     "Nivel_de_associacao": "Nível Social / Institucional",
     "CustoSugerido": "R$ 0 a R$ 150 por ano",
 
-    "Associação": "Benefícios",
+    "Associacao": "Benefícios",
     "BeneficiosUm": "Nome da organização listado no site com selo 'Institucional / Social'.",
     "BeneficiosDois": "Destaque em uma seção especial: 'Parceiros Sociais da Comunidade'.",
     "BeneficioTres": "Orientação sobre documentação, estatutos, regularização e captação de recursos.",
@@ -20,11 +20,11 @@
 
     },
      {
-    "Nivel3": "Nível Bronze – Associação Básica",
+    "NomedoNivel": "Nível Bronze – Associação Básica",
     "Nivel_de_associacao": 3,
     "CustoSugerido": "R$ 150 a R$ 300 por ano",
      
-    "Associação": "Benefícios",
+    "Associacao": "Benefícios",
     "BeneficioUm": "Nome da empresa listado no site com selo 'Associado Bronze'.",
     "BeneficioDois": "Descontos básicos de cerca de 5% em eventos e cursos.",
     "BeneficioTres": "Acesso aos encontros gerais de networking.",
@@ -34,11 +34,11 @@
     },
 
      {
-    "Nivel2": "Nível Prata – Associação Intermediária",
+    "NomedoNivel": "Nível Prata – Associação Intermediária",
     "Nivel_de_associacao": 2,
     "CustoSugerido": "R$ 500 a R$ 1.000 por ano",
     
-    "Associação": "Benefícios",
+    "Associacao": "Benefícios",
     "BeneficioUm": "Logotipo na página de associados com selo 'Associado Prata'.",
     "BeneficioDois": "1 ingresso gratuito por evento.",
     "BeneficioTres": "Acesso ao banco de oportunidades (parcerias, fornecedores, vagas).",
@@ -50,11 +50,11 @@
   },
 
   {
-    "Nivel1": "Nível Ouro – Associação Premium",
+    "NomedoNivel": "Nível Ouro – Associação Premium",
     "Nivel_de_associacao": 1,
     "CustoSugerido": "R$ 1.200 a R$ 3.000 por ano",
     
-    "Associação": "Benefícios",
+    "Associacao": "Benefícios",
     "BeneficioUm": "Logotipo em destaque na página inicial com selo 'Associado Ouro'.",
     "BeneficioDois": "2 a 4 ingressos VIP por evento, com assentos reservados.",
     "BeneficioTres": "Horas mensais de consultoria empresarial (jurídica, contábil ou marketing).",
