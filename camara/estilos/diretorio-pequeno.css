@@ -336,8 +336,10 @@ button {
     background-color: var(--cor-primaria);
     font-weight: 600;
     margin-right: 10px;
-    padding: 6px;
+    padding: 3px;
+    border-radius: 5px;
     color: var(--cor-secundaria);
+    font-size: 12px;
 }
 
 .view-toggle button:hover {
