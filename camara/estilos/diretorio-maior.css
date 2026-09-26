@@ -123,5 +123,28 @@
 
 }
 
+/****form-modal*****/
+
+.form-modal {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; /* formulário à direita, cartões à esquerda */
+    gap: 2rem;
+
+}
+
+form {
+    flex: 0.4; /* 40% */
+}
+
+#contanier-niveis {
+    flex: 0.6; /* 60% */
+}
+
+
+
+/*flex 1 para que cada um ocupe 50% da tela lado a lado*/
+
+
 
 }

@@ -25,9 +25,10 @@ const exibirNiveis = (niveis,) => {
         cartao.appendChild(titulo)
         associacao.appendChild(cartao)
 
+      
+     //Até aqui os cartões já devem aparecer quando abrir o server.
 
-
-    })};
+})};
 
     //para cada nível:
     //criar section

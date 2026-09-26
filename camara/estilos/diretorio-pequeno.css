@@ -407,8 +407,7 @@ input:valid {
 /******* form ******/ 
 
 form {
-    display: grid;
-    grid-template-columns: 200px 1fr ; /*devo mudar depois */
+    
     line-height: 2;
     
 }
@@ -418,6 +417,12 @@ fieldset {
 
 }
 
+/**** form-modal ******/
+
+
+ .form-modal {
+        flex-direction: column;
+    }
 
 
 
