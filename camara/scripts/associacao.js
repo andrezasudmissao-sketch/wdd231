@@ -29,9 +29,11 @@ const exibirNiveis = (niveis) => {
 
 
         // Criar cartão
+        
+
         let cartao = document.createElement("section");
         cartao.classList.add("cartao");
-
+       
         // Título
         let titulo = document.createElement("h2");
         titulo.textContent = nivel.NomedoNivel;
@@ -59,7 +61,11 @@ const exibirNiveis = (niveis) => {
         cartao.appendChild(custo);
         cartao.appendChild(link);
 
+        
         associacao.appendChild(cartao);
+
+        document.getElementById("contanier-niveis").appendChild(cartao); /*faz pega o css*/
+
 
     });
 };

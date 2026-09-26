@@ -18,7 +18,7 @@ body {
     --cor-secundaria: #FFFFFF;       /* branco */
     --cor-de-texto: #000000;         /* preto */
     --cor-destaque: #8abff4;         /* azul escuro opcional */
-    --cor-destaque2: #dce5ef;
+    --cor-destaque2: #FFFFF0;
 }
 
 header {
@@ -387,7 +387,7 @@ input:valid {
     font-size: 18px;
     line-height: 2;
     padding: 15px;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-destaque2);
 }
 
 .thanks {
@@ -407,28 +407,164 @@ input:valid {
 /******* form ******/ 
 
 form {
-    
+    display: block;
+    border: 1px solid (0 0 0 / 0.2);
+    border-radius: 0.5rem;
     line-height: 2;
-    
+      
+}
+legend{
+    font-weight: 700;
+    font-size: 16px;
 }
 
 fieldset {
     padding: 15px;
+    background-color:var(--cor-destaque2);
+
+}
+label {
+
+    font-weight: 500;
 
 }
 
-/**** form-modal ******/
+input,select{
+    display: block;
+    width: 100%; /*ocupa todo espaço da tela*/
+    padding: 6px;
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 2);
+    margin-top: -4px;
+    margin-bottom: 5px;
+   
+    
+}
+
+form button{
+
+    background-color: deeppink;
+    padding: 5px;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 2);
+    cursor:pointer;
+    
+    
+}
+
+textarea{
+    padding: 12px;
+    border-radius: 6px;
+    width: 18rem;
+    height: 6rem;
+    margin-top: -2px;
+
+    
+    
+
+}
+
+/**** form-modal e modal ******/
 
 
- .form-modal {
+.form-modal {
         flex-direction: column;
     
     }
 
-    .cartao-nivel {
-    background-color: #ffffff; /* fundo branco */
-    border: 2px solid #e0e0e0; /* borda suave */
-    }
+#modal{
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 6px 0;
+    margin: auto ;
+    background-color: var();
+
+
+}
+
+#titulo-modal{
+    text-align: center;
+}
+
+
+#fechar-modal {
+    background-color:deeppink;
+    padding: 8px;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 3);
+    cursor: pointer;
+    
+}
+
+.cartao{
+
+    border-radius: 10px 0;
+    
+}
+
+.cartao a {
+    
+    text-decoration: none;
+    color: #FFFFF0;
+    font-weight: 700;
+    line-height: 1.5;
+    background-color: deeppink;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 3px;
+    
+
+    
+}
+
+#contanier-niveis .cartao{
+    padding: 2rem;
+    margin-bottom: 18px;
+    margin-top: 6px;
+    transition: transform 0.3s;
+
+}
+
+#contanier-niveis .cartao::after{
+    transition: transform 1.5 ease-in-out;
+}
+
+
+#contanier-niveis .cartao:hover{
+   transform: perspective(400px) rotateY(20deg);
+
+
+
+}
+
+
+
+
+
+
+/* Se eu quiser mudar algo dentro dos cartões, mudar cada um coloco o nome do id+.cartao+número :#contanier-niveis .cartao:nth-child(0) { }*/
+
+/* transicões: 
+Combinar transformações: transform: translateX(20px) rotate(20deg) scale(1.1);
+Define profundidade 3D:transform: perspective(300px) rotateY(45deg);
+inclinar: transform: skew(20deg, 10deg);
+transform: skewX(30deg);
+transform: skewY(-15deg);
+aumentar diminui: transform: scale(1.2); aumenta 20% 
+transform: scale(0.8); diminui 20% 
+transform: scaleX(2);  dobra largura 
+transform: scaleY(0.5); metade da altura 
+mover: transform: translate(20px, 10px); direita e para baixo 
+transform: translateX(30px);
+transform: translateY(-15px);
+
+*/
+
+
+
+
+
+
+
+
+
 
 
 
