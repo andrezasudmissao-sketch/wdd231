@@ -1,148 +1,127 @@
-
 @media only screen and (min-width: 38rem) {
-   
+
     header, main, nav, footer {
         max-width: 900px;
-        margin: 0 auto;      
+        margin: 0 auto;
     }
 
-     .navegacao{
+    .navegacao {
+        display: block;
+    }
 
-    display: block;
-  
-    
+    .navegacao ul {
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+    }
 
-   }
-
-   .navegacao ul {
-
-    display: flex;
-    gap: 3rem;
-    align-items: center; /*Desceu(estava muito em cima) e foi para o centro*/
-
-  }
-
-    
     .hamburger {
-    
-    display: none;  /* some o botão no notebook*/
-
+        display: none;
     }
 
-   
+    /********** Hover do menu **********/
+    .navegacao a:hover {
+        padding: 10px;
+    }
 
-/********** coloca isso para modifica a cor atrás dos nomes no Menu **********/
-    .navegacao a:hover { /*quando passo o mousse em cima fica uma cor selecionada*/
-    padding: 10px;
-   }
+    /****** botão CTA ******/
+    .btn-cta a {
+        margin-top: 6rem;
+    }
 
-/****** botão CTA ******/
-   .btn-cta a{
-    margin-top: 6rem;
-  
-  
-}
+    /******** footer e redes sociais *********/
+    .icone-redes {
+        width: 30px;
+        height: auto;
+    }
 
+    footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-top: 5px;
+    }
 
+    .contato {
+        text-align: left;
+        font-size: 12px;
+        line-height: 25px;
+    }
 
-/******** footer e redes sociais *********/
-   .icone-redes {
-   width: 30px; 
-   height: auto;
-}
- 
-   footer{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-top: 5px;
+    .projeto {
+        text-align: right;
+        font-size: 12px;
+        line-height: 25px;
+    }
 
-}
+    /******** grade e lista *********/
+    .cartoes-membros.list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
 
-  .contato {
-    text-align: left;
-    font-size: 12px;
-    line-height: 25px;
-    
+    .cartoes-membros.grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 16px;
+    }
 
-}
-  .projeto{ text-align: right;
-    font-size: 12px;
-    line-height: 25px;
+    .cartao {
+        flex: 1;
+        padding: 15px 10px;
+        text-align: left;
+        border: 1px solid #000;
+    }
 
-}
+    .info img {
+        width: 80px;
+        height: 80px;
+    }
 
-/******** grade e lista *********/
+    .cartao h2 {
+        font-size: 16px;
+    }
 
-  .cartoes-membros.list {
-   display: flex;
-   flex-direction: column;
-   gap: 16px;
-   
-}
-  .cartoes-membros.grid {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   gap: 16px;
-}
-  .cartao {
-    flex: 1; /*deixa os cartões no mesmo tamanho*/
-    padding: 15px 10px;
-    text-align: left;
-    border: 1px solid #000;
-}
-  .info img {
-    width: 80px;
-    height: 80px;
-   
-}
+    .texto p {
+        font-size: 13px;
+    }
 
-  .cartao h2 {
-    font-size: 16px;
+    /* Clima */
+    .Eventos-clima > * {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
 
-}
-  .texto p {
-    font-size: 13px;
-}
- /*clima*/
-
- .Eventos-clima > * {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    gap:5px;
-   
-}
-
- .painel {
+    .painel {
         margin-top: 0;
     }
-.Secao-destaque {
-  display: flex;
-  justify-content:space-around;
-  gap:2px;
 
+    .Secao-destaque {
+        display: flex;
+        justify-content: space-around;
+        gap: 2px;
+    }
+
+    /**** form-modal *****/
+    .form-modal {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    form {
+        flex: 0.4;
+    }
+
+    #contanier-niveis {
+        flex: 0.6;
+        margin-top: 15px;
+    }
 }
 
-/****form-modal*****/
-
-.form-modal {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row; /* formulário à direita, cartões à esquerda */
-    gap: 2rem;
-
-}
-
-form {
-    flex: 0.4; /* 40% */
-}
-
-#contanier-niveis {
-    flex: 0.6; /* 60% */
-    margin-top: 15px;
-
-  
-}
 
 
 
@@ -152,4 +131,3 @@ form {
 
 
 
-}

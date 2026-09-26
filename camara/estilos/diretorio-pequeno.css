@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
 
 
@@ -14,10 +14,10 @@ body {
 
 
 :root {
-    --cor-primaria: rgb(43 43 43);   /* cinza escuro */
-    --cor-secundaria: #FFFFFF;       /* branco */
-    --cor-de-texto: #000000;         /* preto */
-    --cor-destaque: #8abff4;         /* azul escuro opcional */
+    --cor-primaria: rgb(43 43 43);
+    --cor-secundaria: #FFFFFF;
+    --cor-de-texto: #000000;
+    --cor-destaque: #8abff4;
     --cor-destaque2: #FFFFF0;
 }
 
@@ -27,7 +27,7 @@ header {
 
 header,
 header * {
-    color: var(--cor-secundaria) 
+    color: var(--cor-secundaria);
 }
 
 /********** Cabeçalho ***********/
@@ -43,9 +43,8 @@ header * {
 
 
 .logomenu {
-
     display: flex;
-    justify-content: space-between; /*Isso deixa o menu organizado*/
+    justify-content: space-between;
     align-items: center;
     background-color: var(--cor-primaria);
     padding: 10px;
@@ -54,11 +53,9 @@ header * {
 
 
 
-
 .logo { order: 1; }
 
 #ham-btn { order: 3; }
-
 
 
 .subtitulo {
@@ -99,8 +96,7 @@ header * {
     background-color: var(--cor-primaria);
     padding: 10px;
     margin-top: auto;
-    order: 2; 
-
+    order: 2;
 }
 
 
@@ -174,14 +170,14 @@ header * {
 
 /***** Eventos *******/
 .Eventos {
-    
+
     border: 1px solid var(--cor-de-texto);
     line-height: 1.5;
     font-size: 12px;
     background-color: var(--cor-destaque2);
-   
-    
+
 }
+
 
 .Eventos h2 {
     background-color: var(--cor-primaria);
@@ -193,8 +189,9 @@ header * {
 
 .Eventos p {
     padding: 3px 10px;
-    
+
 }
+
 
 .Eventos p strong {
     font-size: 16px;
@@ -204,38 +201,31 @@ header * {
 /*Clima */
 
 .painel {
-    
-  border: 1px solid #000000;
-  text-align: center;
-  background-color: var(--cor-destaque2);
-  margin-top: 8px;
-  
-
-   
+    border: 1px solid #000000;
+    text-align: center;
+    background-color: var(--cor-destaque2);
+    margin-top: 8px;
 }
 
-.painel h3{
+.painel h3 {
     margin-top: 20px;
-    
+
 }
+
 
 .dias {
     display: grid;
     grid-template-columns: repeat(3, 150px);
     padding: 5px;
-  
-   
 }
 
-.painel h2{
+
+.painel h2 {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     font-size: 18px;
     padding: 8px;
-     
-}   
-
-
+}
 
 /******* Cartões *******/
 .cartoes-membros {
@@ -249,6 +239,7 @@ header * {
     padding: 15px 10px;
     text-align: left;
     border: 1px solid var(--cor-de-texto);
+    border-radius: 10px 0;
 }
 
 .cartao h2 {
@@ -364,25 +355,25 @@ button {
 /*Secao-destaque*/
 
 .Secao-destaque {
- 
-  margin-top: 8px;
+
+    margin-top: 8px;
 }
 
 /****** form ******/
 
 input:invalid {
-  border-left: 4px solid red;
-  border-radius: 5px;
+
+    border-left: 4px solid red;
+    border-radius: 5px;
 }
 
 input:valid {
-  border-left: 4px solid rgb(85, 243, 85);
+    border-left: 4px solid rgb(85, 243, 85);
 }
 
 
 /**** agradecimentos *******/
-
-#agradecimentos{
+#agradecimentos {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 2;
@@ -393,113 +384,100 @@ input:valid {
 .thanks {
     border: 1px solid #000000;
     margin-top: 5px;
-    
+
 }
 
-.thanks h1{
-    
+
+.thanks h1 {
     background-color: var(--cor-primaria);
-    color:#fff;
+    color: #fff;
     padding: 5px;
     text-align: center;
 }
 
-/******* form ******/ 
-
+/******* form ******/
 form {
     display: block;
-    border: 1px solid (0 0 0 / 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
     line-height: 2;
-      
+
 }
-legend{
+
+
+legend {
     font-weight: 700;
     font-size: 16px;
 }
 
 fieldset {
     padding: 15px;
-    background-color:var(--cor-destaque2);
+    background-color: var(--cor-destaque2);
 
 }
+
+
 label {
 
     font-weight: 500;
 
 }
 
-input,select{
+input,
+select {
     display: block;
-    width: 100%; /*ocupa todo espaço da tela*/
+    width: 100%;
     padding: 6px;
-    box-shadow: 1px 1px 1px rgb(0 0 0 / 2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     margin-top: -4px;
     margin-bottom: 5px;
-   
-    
+
 }
 
-form button{
-
+form button {
     background-color: deeppink;
     padding: 5px;
-    box-shadow: 2px 2px 2px rgb(0 0 0 / 2);
-    cursor:pointer;
-    
-    
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
-textarea{
+textarea {
     padding: 12px;
     border-radius: 6px;
     width: 18rem;
     height: 6rem;
     margin-top: -2px;
 
-       
-
 }
 
 /**** form-modal e modal ******/
 
-
 .form-modal {
-        flex-direction: column;
-    
-    }
+    flex-direction: column;
+}
 
-#modal{
+#modal {
     padding: 10px;
     line-height: 1.5;
     border-radius: 6px 0;
-    margin: auto ;
-    background-color: var();
-
-
+    margin: auto;
+    background-color: var(--cor-destaque2);
 }
 
-#titulo-modal{
+#titulo-modal {
     text-align: center;
 }
 
-
 #fechar-modal {
-    background-color:deeppink;
+    background-color: deeppink;
     padding: 8px;
-    box-shadow: 2px 2px 2px rgb(0 0 0 / 3);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     cursor: pointer;
-    
-}
 
-.cartao{
-
-    border-radius: 10px 0;
-    
 }
 
 .cartao a {
-    
+
     text-decoration: none;
     color: #FFFFF0;
     font-weight: 700;
@@ -508,12 +486,12 @@ textarea{
     border: 1px solid #000000;
     border-radius: 5px;
     padding: 3px;
-    
 
-    
+
 }
 
-#contanier-niveis .cartao{
+
+#contanier-niveis .cartao {
     padding: 2rem;
     margin-bottom: 18px;
     margin-top: 6px;
@@ -521,18 +499,14 @@ textarea{
 
 }
 
-#contanier-niveis .cartao::after{
-    transition: transform 1.5 ease-in-out;
+#contanier-niveis .cartao::after {
+    transition: transform 1.5s ease-in-out;
 }
 
-
-#contanier-niveis .cartao:hover{
-   transform: perspective(400px) rotateY(20deg);
-
-
-
-
+#contanier-niveis .cartao:hover {
+    transform: perspective(400px) rotateY(20deg);
 }
+
 
 
 
