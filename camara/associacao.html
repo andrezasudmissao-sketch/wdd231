@@ -68,26 +68,26 @@
 
     <form action="agradecimento.html" method="get">
 
-        
+
         <fieldset>
             <legend>Formulário de Qualificação do Candidato</legend>
+      <div class="item-formulario">
+           <label for="nome">Nome</label>  
+           <input type="text" id="nome" name="nome" autocomplete="given-name" placeholder="Nome" required> 
 
-            <div class="item-formulario">
-                <label for="nome">Nome</label>  
-                <input type="text" id="nome" name="nome" autocomplete="given-name" placeholder="Nome" required> 
+           <label for="sobrenome">Sobrenome</label>
+           <input type="text" id="sobrenome" name="sobrenome" autocomplete="family-name" placeholder="Sobrenome" required>
 
-                <label for="sobrenome">Sobrenome</label>
-                <input type="text" id="sobrenome" name="sobrenome" autocomplete="family-name" placeholder="Sobrenome" required>
+           <label for="cargo">Cargo na Organização</label>
+           <input type="text" id="cargo" name="cargo" placeholder="Ex: Executivo Junior" required pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\- ]{7,}$" title="Use apenas letras, espaços e hífens, com pelo menos 7 caracteres.">
 
-                <label for="cargo">Cargo na Organização</label>
-                <input type="text" id="cargo" name="cargo" placeholder="Ex: Executivo Junior" required pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\- ]{7,}$" title="Use apenas letras, espaços e hífens, com pelo menos 7 caracteres.">
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email" autocomplete="email" placeholder="Ex: eduarda.bomsabor@gmail.com" required>
 
-                <label for="email-do-usuario">Email:</label>
-                <input type="email" id="email-do-usuario" name="email-do-usuario" autocomplete="email" placeholder="Ex: eduarda.bomsabor@gmail.com" required>
-
-                <label for="telefone">Telefone</label>  
-                <input type="tel" id="tel" name="tel" autocomplete="tel" placeholder="(83)98800-7654" required> 
-            </div>
+           <label for="telefone">Telefone</label>  
+           <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(83)98800-7654" required> 
+      </div>
+>
 
             <legend>Nível de Associação</legend>
 
@@ -116,10 +116,11 @@
     <div id="contanier-niveis"></div>
 
     <dialog id="modal">
-        <h2 id="modal-title"></h2>
-        <div id="modal-body"></div>
-        <button id="close-modal">Fechar</button>
+      <h2 id="titulo-modal"></h2>
+      <div id="conteudo-modal"></div>
+      <button id="fechar-modal">Fechar</button>
     </dialog>
+
 
 </div>
 

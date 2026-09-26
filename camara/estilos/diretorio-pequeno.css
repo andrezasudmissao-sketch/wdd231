@@ -422,7 +422,14 @@ fieldset {
 
  .form-modal {
         flex-direction: column;
+    
     }
+
+    .cartao-nivel {
+    background-color: #ffffff; /* fundo branco */
+    border: 2px solid #e0e0e0; /* borda suave */
+    }
+
 
 
 
