@@ -368,6 +368,17 @@ button {
   margin-top: 8px;
 }
 
+/****** form ******/
+
+input:invalid {
+  border-left: 4px solid red;
+  border-radius: 5px;
+}
+
+input:valid {
+  border-left: 4px solid rgb(85, 243, 85);
+}
+
 
     
     
