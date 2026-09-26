@@ -380,6 +380,47 @@ input:valid {
 }
 
 
+/**** agradecimentos *******/
+
+#agradecimentos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 2;
+    padding: 15px;
+    background-color: var(--cor-secundaria);
+}
+
+.thanks {
+    border: 1px solid #000000;
+    margin-top: 5px;
+    
+}
+
+.thanks h1{
+    
+    background-color: var(--cor-primaria);
+    color:#fff;
+    padding: 5px;
+    text-align: center;
+}
+
+/******* form ******/ 
+
+form {
+    display: grid;
+    grid-template-columns: 200px 1fr ; /*devo mudar depois */
+    line-height: 2;
+    
+}
+
+fieldset {
+    padding: 15px;
+
+}
+
+
+
+
     
     
     
