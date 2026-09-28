@@ -401,6 +401,9 @@ form {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
     line-height: 2;
+    
+
+    
 
 }
 
@@ -468,7 +471,13 @@ textarea {
 /**** form-modal e modal ******/
 
 .form-modal {
+    
     flex-direction: column;
+    width: 80%;
+    margin-left: 3rem;
+    
+ 
+
 }
 
 #modal {
