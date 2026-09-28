@@ -402,20 +402,16 @@ form {
     border-radius: 0.5rem;
     line-height: 2;
     
+    
 
     
 
 }
 
 
-legend {
-    
-    font-weight: 700;
-    font-size: 16px;
-    float: left; /*Tira o espaço em branco que fica acima do legend*/
-    margin-top: 3px;
-   
-   
+legend{
+  font-weight: 700;
+  
 }
 
 fieldset {
@@ -501,7 +497,7 @@ textarea {
 
 }
 
-.cartao a {
+#container-niveis .cartao a {
 
     text-decoration: none;
     color: #fff;
@@ -521,6 +517,7 @@ textarea {
     margin-bottom: 18px;
     margin-top: 8px;
     transition: transform 0.3s;
+    
 
 }
 
@@ -536,7 +533,6 @@ textarea {
 main h1{
      padding: 10px;
 }
-
 
 
 
