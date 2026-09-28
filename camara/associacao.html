@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Câmara de Comércio Costa Do Sol</title>
+    <title>Associe-se - Câmara de Comércio Costa Do Sol</title>
     <meta name="description" content="Uma câmara de comércio é uma organização local de empresas que trabalham juntas para fortalecer os interesses comerciais do grupo.">
     <meta name="author" content="Andreza Gomes">
     <meta property="og:title" content="Fcebook">
@@ -73,36 +73,37 @@
             <legend>Formulário de Qualificação do Candidato</legend>
       <div class="item-formulario">
            <label for="nome">Nome</label>  
-           <input type="text" id="nome" name="nome" autocomplete="given-name" placeholder="Nome" required> 
+           <input type="text" id="nome" name="nome" autocomplete="given-name" placeholder="Nome" required title="Nome"> 
 
            <label for="sobrenome">Sobrenome</label>
-           <input type="text" id="sobrenome" name="sobrenome" autocomplete="family-name" placeholder="Sobrenome" required>
+           <input type="text" id="sobrenome" name="sobrenome" autocomplete="family-name" placeholder="Sobrenome" required title="sobrenome">
 
            <label for="cargo">Cargo na Organização</label>
-           <input type="text" id="cargo" name="cargo" placeholder="Ex: Executivo Junior" required pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\- ]{7,}$" title="Use apenas letras, espaços e hífens, com pelo menos 7 caracteres.">
+           <input type="text" id="cargo" name="cargo" placeholder="Ex: Executivo Junior" required pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\- ]{7,}$" autocomplete="organization-title" title="Use apenas letras, espaços e hífens, com pelo menos 7 caracteres.">
 
            <label for="email">Email:</label>
-           <input type="email" id="email" name="email" autocomplete="email" placeholder="Ex: eduarda.bomsabor@gmail.com" required>
+           <input type="email" id="email" name="email" autocomplete="email" placeholder="Ex: eduarda.bomsabor@gmail.com" required title="telefone">
 
            <label for="telefone">Telefone</label>  
-           <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(83)98800-7654" required> 
+           <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(83)98800-7654" required title="telefone"> 
       </div>
 
 
             <legend>Nível de Associação</legend>
 
             <div class="item-formulario2">
-                <label for="associacao">Selecione um nível de associação:</label>
-                <select name="associacao" id="nivel">
-                    <option value="1">Associação Sem Fins Lucrativos</option>
-                    <option value="2">Associação Bronze (bronze)</option>
-                    <option value="3">Associação Prata (silver)</option>
-                    <option value="4">Associação Ouro (gold)</option>
+                <label for="nivel">Nível de membresia:</label>
+                <select name="associacao" id="nivel"  title="Nível de membresia">
+                    <option value="1">np</option>
+                    <option value="2">bronze</option>
+                    <option value="3">silver</option>
+                    <option value="4">gold</option>
                 </select>
         
                 <label for="discricao">Descrição da atividade/organização</label>
-                <textarea id="discricao" name="discricao" rows="5" placeholder="Descreva a atividade ou organização aqui..."></textarea>
-
+                <textarea id="discricao" name="discricao" rows="5" placeholder="Descreva a atividade ou organização aqui..." title="discricao"></textarea>
+                
+                <label for=registro></label>
                 <input type="hidden" id="registro-data-hora" name="registro-data-hora">
 
                 <button type="submit">Encaminhar Formulário</button>
