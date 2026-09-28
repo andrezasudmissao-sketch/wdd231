@@ -507,7 +507,7 @@ textarea {
 }
 
 
-#contanier-niveis .cartao {
+#container-niveis .cartao {
     padding: 2rem;
     margin-bottom: 18px;
     margin-top: 8px;
@@ -515,11 +515,11 @@ textarea {
 
 }
 
-#contanier-niveis .cartao::after {
+#container-niveis .cartao::after {
     transition: transform 1.5s ease-in-out;
 }
 
-#contanier-niveis .cartao:hover {
+#container-niveis .cartao:hover {
     transform: perspective(400px) rotateY(20deg);
 }
 

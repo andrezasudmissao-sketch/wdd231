@@ -8,7 +8,7 @@ btnfechar.addEventListener("click", () => {
 
 
 const url = "https://raw.githubusercontent.com/andrezasudmissao-sketch/wdd231/main/camara/dados/niveis.json";
-const associacao = document.querySelector("#contanier-niveis");
+const associacao = document.querySelector("#container-niveis");
 
 async function obterDadosDeNiveis() {
     const resposta = await fetch(url);
@@ -64,7 +64,7 @@ const exibirNiveis = (niveis) => {
         
         associacao.appendChild(cartao);
 
-        document.getElementById("contanier-niveis").appendChild(cartao); /*faz pega o css*/
+        document.getElementById("container-niveis").appendChild(cartao); /*faz pega o css*/
 
 
     });
