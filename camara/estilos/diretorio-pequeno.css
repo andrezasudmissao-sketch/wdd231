@@ -145,8 +145,8 @@ header * {
 /******** Botão CTA *******/
 .btn-cta a {
     position: absolute;
-    top: 45%;
-    left: 65%;
+    top: 70%;
+    left: 30%;
     background-color: var(--cor-secundaria);
     color: var(--cor-de-texto);
     padding: 10px 22px;
