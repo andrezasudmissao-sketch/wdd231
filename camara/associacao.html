@@ -67,7 +67,7 @@
     <div class="form-modal">
 
     <form action="agradecimento.html" method="get">
-        
+
 
         <fieldset>
 
@@ -76,19 +76,19 @@
             <div class="item-formulario">
 
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome" autocomplete="given-name" placeholder="Nome" required>
+                <input type="text" id="nome" name="nome" autocomplete="given-name" placeholder="Nome" required title="nome">
 
                 <label for="sobrenome">Sobrenome</label>
-                <input type="text" id="sobrenome" name="sobrenome" autocomplete="family-name" placeholder="Sobrenome" required>
+                <input type="text" id="sobrenome" name="sobrenome" autocomplete="family-name" placeholder="Sobrenome" required title="sobrenome">
 
                 <label for="cargo">Cargo na Organização</label>
-                <input type="text" id="cargo" name="cargo" placeholder="Ex: Executivo Junior" required pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\- ]{7,}$" autocomplete="organization-title">
+                <input type="text" id="cargo" name="cargo" placeholder="Ex: Executivo Junior" required pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\- ]{7,}$" autocomplete="organization-title" title="organizacao">
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" autocomplete="email" placeholder="Ex: eduarda.bomsabor@gmail.com" required>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="Ex: eduarda.bomsabor@gmail.com" required title="email">
 
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(83)98800-7654" required>
+                <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(83)98800-7654" required title="telefone">
 
             </div>
 
@@ -97,7 +97,7 @@
             <h2>Nível de Associação</h2>
 
             <label for="organizacao">Nome da Organização</label>
-            <input type="text" id="organizacao" name="organizacao" autocomplete="organization" placeholder="Ex: Bom Sabor Ltda" required>
+            <input type="text" id="organizacao" name="organizacao" autocomplete="organization" placeholder="Ex: Bom Sabor Ltda" required title="organizacao">
 
             <label for="nivel">Nível de membresia:</label>
             <select id="nivel" name="associacao">
@@ -108,7 +108,7 @@
             </select>
 
             <label for="discricao">Descrição da atividade/organização</label>
-            <textarea id="discricao" name="discricao" rows="5" placeholder="Descreva a atividade ou organização aqui..."></textarea>
+            <textarea id="discricao" name="discricao" rows="5" placeholder="Descreva a atividade ou organização aqui..." title="discricao"></textarea>
 
             <input type="hidden" id="registro-data-hora" name="registro-data-hora">
 
@@ -116,28 +116,25 @@
 
         </fieldset>
 
+  
     </form>
+    
 
-</div>
-
-
-
-    </form>
+    <!--modal-->
 
     <div id="contanier-niveis"></div>
    
     <dialog id="modal">
-      <h2 id="titulo-modal"></h2>
+      <h2 id="titulo-modal">Titulo</h2>
       <div id="conteudo-modal"></div>
       <button id="fechar-modal">Fechar</button>
     </dialog>
 
 
-</div>
+    </div>
 
-
-  
     </main>
+
     
     <footer>
      
