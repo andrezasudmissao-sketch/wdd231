@@ -412,6 +412,7 @@ legend {
     float: left; /*Tira o espaço em branco que fica acima do legend*/
     margin-top: 3px;
    
+   
 }
 
 fieldset {
@@ -451,6 +452,7 @@ form button {
 
 form h2{
     font-size: 18px;
+    
     
 }
 
@@ -522,7 +524,9 @@ textarea {
 }
 
 
-
+main h1{
+     padding: 10px;
+}
 
 
 
