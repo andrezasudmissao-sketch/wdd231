@@ -67,52 +67,59 @@
     <div class="form-modal">
 
     <form action="agradecimento.html" method="get">
-
+        
 
         <fieldset>
+
             <legend>Formulário de Qualificação do Candidato</legend>
-      <div class="item-formulario">
-           <label for="nome">Nome</label>  
-           <input type="text" id="nome" name="nome" autocomplete="given-name" placeholder="Nome" required title="Nome"> 
 
-           <label for="sobrenome">Sobrenome</label>
-           <input type="text" id="sobrenome" name="sobrenome" autocomplete="family-name" placeholder="Sobrenome" required title="sobrenome">
+            <div class="item-formulario">
 
-           <label for="cargo">Cargo na Organização</label>
-           <input type="text" id="cargo" name="cargo" placeholder="Ex: Executivo Junior" required pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\- ]{7,}$" autocomplete="organization-title" title="Use apenas letras, espaços e hífens, com pelo menos 7 caracteres.">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" autocomplete="given-name" placeholder="Nome" required>
 
-           <label for="email">Email:</label>
-           <input type="email" id="email" name="email" autocomplete="email" placeholder="Ex: eduarda.bomsabor@gmail.com" required title="telefone">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" name="sobrenome" autocomplete="family-name" placeholder="Sobrenome" required>
 
-           <label for="telefone">Telefone</label>  
-           <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(83)98800-7654" required title="telefone"> 
-      </div>
-           
-   
-            <br> <!-- Faz um pequeno espaço.-->
+                <label for="cargo">Cargo na Organização</label>
+                <input type="text" id="cargo" name="cargo" placeholder="Ex: Executivo Junior" required pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\- ]{7,}$" autocomplete="organization-title">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="Ex: eduarda.bomsabor@gmail.com" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(83)98800-7654" required>
+
+            </div>
+
+            <br>
+
             <h2>Nível de Associação</h2>
 
+            <label for="organizacao">Nome da Organização</label>
+            <input type="text" id="organizacao" name="organizacao" autocomplete="organization" placeholder="Ex: Bom Sabor Ltda" required>
 
             <label for="nivel">Nível de membresia:</label>
-            <input type="text" id="organizacao" name="organizacao" autocomplete="organization" placeholder="Ex: Bom Sabor Ltda" title="Nível de membresia" required>
-               <select>
-                  <option value="np">np</option>
-                  <option value="bronze">bronze</option>
-                  <option value="silver">silver</option>
-                  <option value="gold">gold</option>
-               </select>
+            <select id="nivel" name="associacao">
+                <option value="np">np</option>
+                <option value="bronze">bronze</option>
+                <option value="silver">silver</option>
+                <option value="gold">gold</option>
+            </select>
 
-        
-                <label for="discricao">Descrição da atividade/organização</label>
-                <textarea id="discricao" name="discricao" rows="5" placeholder="Descreva a atividade ou organização aqui..." title="discricao"></textarea>
-                
-              
-                <input type="hidden" id="registro-data-hora" name="registro-data-hora">
+            <label for="discricao">Descrição da atividade/organização</label>
+            <textarea id="discricao" name="discricao" rows="5" placeholder="Descreva a atividade ou organização aqui..."></textarea>
 
-                <button type="submit">Encaminhar Formulário</button>
-                
+            <input type="hidden" id="registro-data-hora" name="registro-data-hora">
+
+            <button type="submit">Encaminhar Formulário</button>
 
         </fieldset>
+
+    </form>
+
+</div>
+
 
 
     </form>
