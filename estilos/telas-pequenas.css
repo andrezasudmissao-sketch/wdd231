@@ -98,7 +98,7 @@ h1 {
 
 
 
-h2, h3 {
+h2 {
     background-color: #000;
     color: var(--cor-fundo);
     padding: 5px;
@@ -165,8 +165,19 @@ footer {
   display: flex;              /* Coloca os botões lado a lado */
   justify-content: center;    /* Centraliza os botões na tela */
   gap: 10px;                  /* Espaço entre os botões */
-  margin-bottom: 20px;        /* Distância entre botões e cursos */
+  margin-bottom: 25px;        /* Distância entre botões e cursos */
 }
+
+.cursos h3{
+    text-align: center;
+    margin-bottom: 2px;
+    padding: 15px;
+    font-weight: 800;
+    font-size: 22px;
+    
+}
+
+
 
 .btn-categoria {
   background-color: #000;     /* Fundo preto */
@@ -189,8 +200,11 @@ footer {
   justify-content: center;    /* Centraliza os cartões */
   gap: 15px;                  /* Espaço entre os cartões */
   margin-top: 40px;
+  padding-bottom: 10px;
   clear: both; /* força ficar abaixo */
   width: 100%;
+  border: 1px solid rgb(24, 10, 10);   /* só pra enxergar onde estão */
+
   
 
 }
@@ -202,26 +216,25 @@ footer {
   border-radius: 5px;         /* Cantos arredondados */
   font-weight: bold;          /* Texto destacado */
   text-align: center;         /* Centraliza o texto */
-  width: 120px;               /* Largura fixa dos cartões */
+  margin-left: 2px;
+  width: 110px;               /* Largura fixa dos cartões */
 }
 
 .card-curso.wdd {
   background-color: #5a2d82;  /* Cor roxa para cursos WDD */
+  margin-bottom: 2px;
 }
 
 .card-curso.cse {
   background-color: #8b4513;  /* Cor marrom escuro para cursos CSE */
+  margin-bottom: 2px;
 }
 .credito{
     text-align: center;
     margin-top: 15px;
 }
 
-.categorias,
-.cursos {
-  border: 1px solid rgb(24, 10, 10);   /* só pra enxergar onde estão */
-  padding: 15px;
-}
+
 
 
 /****** dialog ******/
