@@ -137,9 +137,25 @@
    
 }
 
+.cartoes-areas{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    gap: 5px;
+    text-align: center;
+    font-size: 14px;
+
 }
 
+.cartoes-areas h2{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
 
+}
+
+}
 
 
 

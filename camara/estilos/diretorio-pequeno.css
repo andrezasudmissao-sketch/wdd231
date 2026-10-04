@@ -231,7 +231,10 @@ header * {
 .cartoes-membros {
 
     gap: 8px;
+    font-weight: 500;
     margin: 5px 10px;
+    
+
 }
 
 .cartao {
@@ -533,6 +536,35 @@ textarea {
 main h1{
      padding: 10px;
 }
+
+/*cartoes-areas da página sobre*/ 
+.cartoes-areas{
+   
+   margin-bottom: 10px;
+}
+
+.cartoes-areas p{
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.botao-saiba-mais{
+     background-color: #fff;
+     width: 50%;
+     padding: 5px;
+     border-radius: 5px;
+     margin-top: 40px;
+}
+
+.botao-saiba-mais:hover{
+    background-color: var(--cor-de-texto);
+}
+
+
+
+
+
 
 
 

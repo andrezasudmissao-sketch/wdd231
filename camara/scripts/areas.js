@@ -1,6 +1,10 @@
 
 
-import { exibirAreas } from "./areas.js";
-import { locais } from "../dados/areas.mjs";
+import { itens_de_interesse } from "../dados/areas.mjs";
+import { exibirAreas } from "./cartoes-locais.js";
 
-exibirAreas(locais);
+exibirAreas(itens_de_interesse);
+
+
+
+

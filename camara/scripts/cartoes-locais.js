@@ -23,32 +23,41 @@ const exibirAreas = (locais) =>
         texto.classList.add('texto');
 
         const retrato = document.createElement('img');
-        retrato.src = `imagens/${area.img}`;
+        retrato.src = `./imagens/${area.img}`;
         retrato.alt = `Imagem da area ${area.titulo}`;
         retrato.loading = 'lazy';
 
         const nome = document.createElement('p');
-        nome.textContent = `nome: ${area.nome}`;
+        nome.textContent = `Nome: ${area.nome}`;
 
         const endereco = document.createElement('p');
-        endereco.textContent = `endereco: ${area.endereco}`;
+        endereco.textContent = `Endereço: ${area.endereco}`;
 
         const descricao = document.createElement('p');
-        descricao.textContent = `descricao: ${area.descricao}`;
+        descricao.textContent = `Descrição: ${area.descricao}`;
+
+        const textoDosite = document.createElement('a');
+        textoDosite.href = area.textoDosite;
+        textoDosite.textContent = "Saiba mais";
+        textoDosite.target = "_blank";
 
         // textos em coluna
         texto.appendChild(nome);
         texto.appendChild(endereco);
         texto.appendChild(descricao);
     
+        info.appendChild(textoDosite);
         info.appendChild(texto);  
         info.appendChild(retrato); 
-
+       
+       
         // montar cartão
         cartao.appendChild(titulo);
         cartao.appendChild(info);
         cartoes.appendChild(cartao)
-       
+
+       textoDosite.classList.add("botao-saiba-mais");
+
 
     });
 
