@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 64rem) {
 
     header, main, nav, footer {
         max-width: 900px;
@@ -139,7 +139,7 @@
 
 .cartoes-areas{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     padding: 10px;
     margin-bottom: 10px;
     gap: 5px;
@@ -153,6 +153,26 @@
     font-weight: bold;
     text-align: center;
 
+}
+
+.cartoes-areas p{
+    font-size: 12px;
+  
+}
+
+.cartoes-areas .cartao img {
+  display: block;
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 10px;
+  transition: transform .3s ease, filter .3s ease;
+  
+}
+
+.cartao img:hover {
+  transform: scale(1.06);
+  filter: brightness(1.05);
 }
 
 }

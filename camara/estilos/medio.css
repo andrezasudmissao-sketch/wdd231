@@ -1,0 +1,14 @@
+@media only screen and (min-width: 38rem) {
+
+    .cartoes-areas{
+        grid-template-areas: 
+        "titulo"
+        "nome"
+        "endereco"
+        "descricao"
+        "botao";
+    }
+       
+    
+    
+};
