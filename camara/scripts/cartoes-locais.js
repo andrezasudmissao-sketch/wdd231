@@ -63,3 +63,4 @@ const exibirAreas = (locais) =>
 
 
 export { exibirAreas };
+console.log(exibirAreas);
