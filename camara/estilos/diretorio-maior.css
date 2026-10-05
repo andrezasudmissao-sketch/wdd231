@@ -166,7 +166,7 @@
   height: 100px;
   object-fit: cover;
   margin-top: 10px;
-  transition: transform .3s ease, filter .3s ease;
+  transition: transform .2s ease, filter .1s ease;
   
 }
 
