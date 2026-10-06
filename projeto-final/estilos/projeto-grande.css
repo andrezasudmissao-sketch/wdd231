@@ -13,14 +13,19 @@
     padding: 10px;
     }
 
-  .navegacao ul {
+   .navegacao ul {
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    gap: 5rem;
    
    }
 
-   .navegacao a:hover { /*quando passo o mousse aparece a maozinha*/
+    .navegacao a:hover { /*quando passo o mousse aparece a maozinha*/
     padding: 10px;
    }
+
+    .logo-menu img { order: 2; } /*mudar para direita*/
+
+    #ham-btn { order: 1; }
     
 } 

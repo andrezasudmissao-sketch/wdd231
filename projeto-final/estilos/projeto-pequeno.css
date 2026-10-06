@@ -28,47 +28,108 @@ header{
 
 }
 
-.navegacao.exibir {
+
+/*Menu de navegação*/
+nav ul {
+    display: flex;
+    list-style: none; /* sem bolinhas no menu.*/
+    justify-content:space-around;
+    text-decoration: none; /*remover o sublinhado do menu(os links tem sublinhado)*/
+    padding:12px;
+    
+}
+
+nav ul li{
+    flex: 1 1 100%; /*flex-grow: 1; flex-shrink: 1; flex-basis: 100%;*/
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none; /*remover o sublinhado do menu(os links tem sublinhado)*/
+    color:#fff;
+    
+
+}
+/*o efeito  de hover é aquele que acontece quando você passa o mouse por cima de um elemento — como um botão, link ou imagem — e ele muda de aparência.*/
+a:hover {
+
+  text-decoration: underline; /*linha embaixo da palavra*/
+}
+
+.navegacao {
+    display: none;  /*O menu vai para o botão*/
+    background-color: var(--cor-primaria);
+    padding: 8px;
+   
+   
+}
+
+
+.navegacao.exibir { 
     display: block;
+
+
 }
 
-.navegacao ul {
-    list-style: none;
-}
 
-.navegacao a {
-    text-decoration: none;
-    line-height: 2;
-    color: #fff;
-}
+
+
+
 
 /******** Botão hamburger ********/
+
+
+
 .hamburger {
     background: none;
     border: none;
     cursor: pointer;
-    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translateX(10px) rotate(10deg);
+    margin-right: 10px;
     
+     
 }
 
 .hamburger::after {
     content: "\2630";
     font-size: 2rem;
+    color: #fff;
+    
+  
 }
 
 .hamburger.show::after {
-    content: "\00D7";
+    content: "\00D7"; /* X */
+    opacity: 1;
+  
+    
+   
 }
 
-/*logo*/ 
 
-.logo span{
+
+
+
+/************* logo **************/ 
+
+.logo-menu span{
+   
     font-size: 20px;
     font-weight: 700;
     
 
 }
-/*footer e rede social*/
+
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+
+/********* footer e rede social *********/
 
 footer {
     background-color:#0d0d52;
