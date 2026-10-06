@@ -1,0 +1,104 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    
+}
+
+:root {
+    --cor-primaria: ;
+    --cor-secudanria: ;
+    --cor-fundo: ;
+    --cor-de-texto: ;
+    --fonte-family: ;    
+
+}
+
+/*header e menu*/
+
+header{ 
+    color: #FFFAF0;
+    background-color:#0d0d52 ;  
+
+}
+
+.navegacao.exibir {
+    display: block;
+}
+
+.navegacao ul {
+    list-style: none;
+}
+
+.navegacao a {
+    text-decoration: none;
+    line-height: 2;
+    color: #fff;
+}
+
+/******** Botão hamburger ********/
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+.hamburger::after {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::after {
+    content: "\00D7";
+}
+
+/*logo*/ 
+
+.logo span{
+    font-size: 20px;
+    font-weight: 700;
+    
+
+}
+/*footer e rede social*/
+
+footer {
+    background-color:#0d0d52;
+    color: #FFFAF0;
+    margin-top: 5px;
+    padding: 6px;
+}
+
+.contato-projeto {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 10px;
+    font-size: 12px;
+  
+}
+
+.social{
+    text-align:center;
+    margin-top: 20px;
+    margin-left: 10px;
+
+   
+    
+
+}
+
+/*imagem hero */ 
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

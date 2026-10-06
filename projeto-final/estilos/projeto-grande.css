@@ -1,0 +1,26 @@
+@media only screen and (min-width: 38rem) {
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto;      
+    }
+
+     .hamburger {
+        display: none;  /* some o botão no notebook*/
+    }
+
+    .navegacao {
+    display: block;
+    padding: 10px;
+    }
+
+  .navegacao ul {
+    display: flex;
+    gap: 30px;
+   
+   }
+
+   .navegacao a:hover { /*quando passo o mousse aparece a maozinha*/
+    padding: 10px;
+   }
+    
+} 
