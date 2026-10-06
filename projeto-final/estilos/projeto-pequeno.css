@@ -33,33 +33,41 @@ header{
 nav ul {
     display: flex;
     list-style: none; /* sem bolinhas no menu.*/
-    justify-content:space-around;
+    justify-content:space-between;
     text-decoration: none; /*remover o sublinhado do menu(os links tem sublinhado)*/
     padding:12px;
+    margin-top: 15px;
+    
+    
     
 }
 
 nav ul li{
-    flex: 1 1 100%; /*flex-grow: 1; flex-shrink: 1; flex-basis: 100%;*/
+    
     text-align: center;
 }
 
 nav a{
+    
     text-decoration: none; /*remover o sublinhado do menu(os links tem sublinhado)*/
-    color:#fff;
+    color:#fff;   
+    font-weight: 700;
+    
     
 
 }
 /*o efeito  de hover é aquele que acontece quando você passa o mouse por cima de um elemento — como um botão, link ou imagem — e ele muda de aparência.*/
 a:hover {
 
-  text-decoration: underline; /*linha embaixo da palavra*/
+  border: 1px solid #fff;
+  padding: 10px;
 }
 
 .navegacao {
     display: none;  /*O menu vai para o botão*/
     background-color: var(--cor-primaria);
     padding: 8px;
+    font-size: 25;
    
    
 }
@@ -107,6 +115,17 @@ a:hover {
    
 }
 
+a[aria-current="page"] {
+  font-weight:lighter;
+  color: gold;
+  text-decoration:underline;
+   animation: pulse 1s infinite alternate; /*animção*/
+}
+
+@keyframes pulse {   
+  from { text-underline-offset: 2px; }
+  to   { text-underline-offset: 6px; }
+}
 
 
 
@@ -125,8 +144,81 @@ a:hover {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    gap:10px;
+    
     
 }
+
+/******* main ******/
+
+.Agora{
+    
+    padding: 10px;
+    text-align: center;
+    background-color: #0d0d52;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+
+.Agora a {
+    text-decoration: none;
+    border: none;
+    color: gold;
+    
+}
+
+.Agora a:hover{
+    text-decoration: line-through;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.Agora p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.btn-svg{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
+
+.btn-svg img{
+    width: 30px;
+    
+}
+
+
+
+h1{
+    font-size: 3rem;
+    color:#FFFAF0;
+}
+
+/****** main habito ********/
+
+.habitos {
+    padding:10px;
+    border: 1px solid #0d0d52;
+
+}
+
+.habitos p {
+    line-height: 1.5;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.habitos h1{
+    color:#0d0d52;
+    line-height: 1.2;
+}
+
+
 
 
 /********* footer e rede social *********/
