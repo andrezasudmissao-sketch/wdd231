@@ -1,0 +1,23 @@
+
+{
+  "cards": [
+    {
+      "id": 1,
+      "titulo": "Saúde Física",
+      "imagem": "fisica.webp",
+      "texto": "Hábitos simples para melhorar sua energia e disposição."
+    },
+    {
+      "id": 2,
+      "titulo": "Saúde Mental",
+      "imagem": "mental.webp",
+      "texto": "Rotinas que ajudam a reduzir estresse e aumentar bem-estar."
+    },
+    {
+      "id": 3,
+      "titulo": "Produtividade",
+      "imagem": "produtividade.webp",
+      "texto": "Organize seu dia e alcance suas metas com mais clareza."
+    }
+  ]
+}

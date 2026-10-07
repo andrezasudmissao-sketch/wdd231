@@ -1,0 +1,46 @@
+
+
+{
+  "habitos": [
+    {
+      "id": 1,
+      "titulo": "Beber água diariamente",
+      "descricao": "Ajuda na hidratação, melhora a pele e aumenta energia.",
+      "exemplo": "Ao acordar, bebi um copo de água antes de começar minhas atividades. Mantive uma garrafinha por perto durante o dia e isso facilitou lembrar de beber mais."
+    },
+    {
+      "id": 2,
+      "titulo": "Meditar 5 minutos",
+      "descricao": "Reduz ansiedade e melhora foco.",
+      "exemplo": "Antes de iniciar o trabalho, sentei em um lugar tranquilo, fechei os olhos e fiz uma respiração guiada por cinco minutos. Comecei o dia mais leve e concentrada."
+    },
+    {
+      "id": 3,
+      "titulo": "Planejar o dia",
+      "descricao": "Evita procrastinação e aumenta produtividade.",
+      "exemplo": "Acordei cedo, organizei minhas tarefas principais e defini horários para cada atividade. Caminhei pela manhã, estudei ao voltar e segui o planejamento com mais clareza."
+    },
+
+    {
+      "id": 4,
+      "titulo": "Ler por 10 minutos",
+      "descricao": "Estimula o cérebro, melhora o vocabulário e ajuda na concentração.",
+      "exemplo": "Separei um livro que gosto e li por dez minutos antes de dormir. Foi o suficiente para relaxar e aprender algo novo."
+    },
+    {
+      "id": 5,
+      "titulo": "Alongar ao acordar",
+      "descricao": "Melhora a mobilidade, reduz dores e aumenta disposição.",
+      "exemplo": "Assim que levantei, fiz alguns alongamentos simples por dois minutos. Meu corpo despertou mais rápido e comecei o dia com mais energia."
+    },
+    {
+      "id": 6,
+      "titulo": "Organizar o ambiente",
+      "descricao": "Traz clareza mental, reduz estresse e facilita a rotina.",
+      "exemplo": "Antes de iniciar minhas tarefas, arrumei a mesa e deixei só o que eu realmente precisava. Isso me ajudou a manter o foco durante o dia."
+    }
+  ]
+}
+
+  
+
