@@ -28,6 +28,11 @@ header{
 
 }
 
+header img{
+    border-radius: 2rem;
+    
+}
+
 
 /*Menu de navegação*/
 nav ul {
