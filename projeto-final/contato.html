@@ -48,6 +48,72 @@
     <main>
   <h1></h1>
 
+   <fieldset>
+
+            <legend>Formulário para Mudança de Hábitos</legend>
+
+            <div class="formulario-habito">
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" autocomplete="given-name" placeholder="Nome" required title="nome">
+
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" name="sobrenome" autocomplete="family-name" placeholder="Sobrenome" required title="sobrenome">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="Ex: flavio.martins@gmail.com" required title="email">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(83)98865-8546" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required title="telefone">
+
+            </div>
+
+            <br>
+
+              <h2>Nivel de Motivação</h2>
+                    <p>Em uma escala de 0 a 5, qual é seu nível de motivação atual:</p>
+        
+                    <div class="escala">
+                        <input type="radio" id="numerocinco" name="numero" value="5"  required>
+                        <label for="numerocinco"></label>
+
+                        <input type="radio" id="numeroquatro" name="numero" value="4" required>
+                        <label for="numeroquatro"></label>
+
+                        <input type="radio" id="numerotres" name="numero" value="3" required>
+                        <label for="numerotres"></label>
+
+                        <input type="radio" id="numerodois" name="numero" value="2" required>
+                        <label for="numerodois"></label>
+
+                        <input type="radio" id="numeroum" name="numero" value="1" required>
+                        <label for="numeroum"></label>
+                    </div>
+          
+            <br>
+
+            <h2>Identificação do Hábito:</h2>
+
+            <label for="progresso">Como você vai acompanhar seu progresso?</label>
+            <select id="pro" name="lista">
+                <option value="caderno">Em um caderno</option>
+                <option value="aplicativo">App</option>
+                <option value="planejamento">Planilha</option>
+                <option value="lista">Checklist</option>
+            </select>
+
+            <label for="discricao">Qual hábito você deseja mudar ou criar?</label>
+            <textarea id="discricao" name="discricao" rows="5" placeholder="Descreva a atividade ou hábito que deseja mudar..." title="discricao" required></textarea>
+
+            <input type="hidden" id="registro-data-hora" name="registro-data-hora">
+
+            <button type="submit">Direcionar Formulário</button>
+
+        </fieldset>
+
+  
+    </form>
+
     </main>
 
 
