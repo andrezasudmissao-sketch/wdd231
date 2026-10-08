@@ -33,7 +33,17 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    
 
+      #cards-destaque{
+        display: flex;
+        gap:4px
+        
+    }
+
+    #cards-destaque img{
+      height: 180px;
+    }
     
 } 
 
