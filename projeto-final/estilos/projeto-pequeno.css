@@ -223,8 +223,7 @@ h1{
 
 .habitos p {
     line-height: 1.5;
-    font-family: "Roboto Condensed", sans-serif;
-    text-align: justify;
+   
 }
 
 .habitos h1{
@@ -395,6 +394,13 @@ footer {
 
     }
 
+   main,
+  main * {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: justify;
+}
+
+
 
     form p{ 
      font-weight: 600;
@@ -411,6 +417,7 @@ footer {
     border-radius:5px 0 ;
     margin-bottom: 4px;
     background-color: #FFFAF0;
+    
     
   }
 
@@ -442,6 +449,7 @@ footer {
 
 
      #cards-destaque{
+       
           gap:4px
         
     }
