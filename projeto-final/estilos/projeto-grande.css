@@ -29,7 +29,10 @@
 
     #ham-btn { order: 1; }
 
-   
+   .form-rel{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
     
 } 
