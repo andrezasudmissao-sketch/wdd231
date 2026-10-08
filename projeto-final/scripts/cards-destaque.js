@@ -5,7 +5,7 @@ const cardsContainer = document.querySelector('#cards-destaque');
 async function obterDadosDeCards() {
     const resposta = await fetch(url);
     const dados = await resposta.json();
-    exibirCards(dados.cards, cardsContainer); // <-- CORRETO
+    exibirCards(dados.cards, cardsContainer); 
 }
 
 obterDadosDeCards();
