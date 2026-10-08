@@ -206,7 +206,7 @@ a[aria-current="page"] {
 
 
 
-h1{
+ h1{
     font-size:2rem;
     color:#0d0d52;
     text-align: center;
@@ -218,6 +218,7 @@ h1{
 .habitos {
     padding:10px;
     border: 1px solid #0d0d52;
+    background-color: #FFFAF0;
 
 }
 
@@ -229,6 +230,22 @@ h1{
 .habitos h1{
     color:#0d0d52;
     line-height: 1.2;
+}
+
+.habitos img {
+    display: flex;
+    margin-left: auto;
+    width: 200px;
+    animation: correr 0.6s infinite alternate ease-in-out; 
+
+
+    
+}
+
+@keyframes correr {
+  10%   { transform: translateX(0) rotate(0deg); }
+  40%  { transform: translateX(3px) rotate(2deg); }
+  100% { transform: translateX(-3px) rotate(-2deg); }
 }
 
 
@@ -288,10 +305,18 @@ footer {
   .relatos{
      width: 100%;
      padding: 20px;
-     margin-top: 3rem;
+     margin-top: 4rem;
    
 
     
+  }
+
+  .relatos p:hover{
+    background-color: #FFFAF0;
+    border: 1px solid #000;
+    border-radius: 0 10px;
+    box-shadow: 2px 2px rgba(0, 1, 2, 0.6);
+    padding: 10px;
   }
 
   .relatos h3 {
@@ -322,6 +347,7 @@ footer {
         width: 100%;
         max-width: 500px;
         line-height: 1.5;
+     
       
         /*margin: 0 auto; centralizar o formulário*/
         
@@ -440,12 +466,14 @@ footer {
     /****** página sobre ****/
 
     #d-diarios{
-        border: 1px solid #000;
-        border-radius: 5px 0;
+        background-color: #FFFAF0;
         margin: 4px 0;
         padding: 10px;
+        border: 1px solid #000;
+        border-radius: 5px 0;
         
     }
+
 
 
      #cards-destaque{
@@ -467,10 +495,48 @@ footer {
          border-radius: 0 10px;
          background:#FFFAF0;
     }
+    
+
+   #habitos-cartoes{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    #habitos-cartoes section{
+        
+        padding: 10px;
+        margin-bottom: 4px;
+        background-color: #FFFAF0;
+
+
+    }
+
+    #habitos-cartoes h2{
+        background-color: #0d0d52;
+        border-radius: 10px;
+        padding: 5px;
+        color: #fff;
+        width: 150px;
+        font-size: 0.8rem;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #habitos-cartoes section:hover {
+        border: 1px solid #000;
+        border-radius: 0 10px;
+
+    }
+
+
+
+   
+
 
 
     
 
-    
    
-   
+  

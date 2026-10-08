@@ -1,0 +1,23 @@
+
+{
+  "relatos": [
+    {
+      "id": 1,
+      "nome": "Ana",
+      "idade": 27,
+      "texto": "Comecei seguindo as dicas de rotina matinal do Hábito+ e em poucas semanas percebi que estava mais organizada e menos ansiosa. Pequenas mudanças fizeram uma grande diferença na minha vida."
+    },
+    {
+      "id": 2,
+      "nome": "Marcos",
+      "idade": 34,
+      "texto": "Eu nunca conseguia manter hábitos saudáveis, mas os cards de hábitos simples me ajudaram a começar devagar. Hoje bebo mais água, caminho todos os dias e me sinto muito melhor."
+    },
+    {
+      "id": 3,
+      "nome": "Júlia",
+      "idade": 19,
+      "texto": "O site me ajudou a criar uma rotina de estudos que realmente funciona. O planejamento diário mudou completamente minha produtividade."
+    }
+  ]
+}
