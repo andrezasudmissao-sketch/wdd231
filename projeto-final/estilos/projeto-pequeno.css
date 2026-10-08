@@ -264,3 +264,109 @@ footer {
   height: auto;
   display: block;
 }
+
+#d-diarios p:hover {
+    animation: shake 0.4s ease-in-out;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); } /*início*/
+    10% { transform: translateX(-3px); } /*mexe para a esquerda*/
+    60% { transform: translateX(3px); } /*mexe para a direita*/
+    75% { transform: translateX(-3px); } /*volta para a esquerda*/
+    90% { transform: translateX(3px); } /*volta para a direita*/
+    100% { transform: translateX(0); } /*volta ao normal*/
+}
+
+/******* página contatos *******/
+
+.relatos p{
+    
+    font-size: 16px;
+    margin-top: 7px;
+    line-height: 1.5;
+    font-style: italic;
+    
+}
+
+.relatos{
+     padding: 20px;
+     border: 1px solid #000;
+     margin: 5px 0; 
+}
+
+.relatos h3 {
+    text-align: center;
+    margin: 15px 0;
+    text-transform: uppercase;
+  
+}
+
+ /******** formulario ***********/
+
+    form {
+        display: block;
+        gap: 10px;
+        padding: 10px;
+        width: 100%;
+        max-width: 500px;
+        line-height: 1.5;
+        margin: 0 auto; /*centralizar o formulário*/
+        
+    }
+
+    fieldset{
+        margin-top: 10px;
+        padding: 15px;
+    }
+
+    input
+    {
+      display: block;
+      width: 100%;
+      padding: 6px;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+      margin-bottom: 5px;
+      
+
+   }
+    
+
+    form button {
+      
+      display: block;
+      margin-left: auto; /*O botão foi para direita*/
+      border-radius: 5px;
+      padding: 5px;
+      box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+      background-color: #000;
+      color: #fff;
+      cursor: pointer;
+      margin-top: 8px;
+      font-weight: 600;
+      
+    
+    }
+
+   form button:hover {
+      background-color:gold;
+      color: #000;
+
+   }
+   
+    .escala{
+        display: flex;
+        height: 20px;
+        box-shadow: none;
+        
+        
+    }
+
+    textarea{
+        margin-top: 5px;
+        width: 250px;
+        
+    }
+
+    
+   

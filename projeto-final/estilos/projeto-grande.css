@@ -1,5 +1,5 @@
 @media only screen and (min-width: 38rem) {
-    header, main, nav, footer {
+    header, main, nav, footer{ 
         max-width: 900px;
         margin: 0 auto;      
     }
@@ -28,5 +28,9 @@
     .logo-menu img { order: 2; } /*mudar para direita*/
 
     #ham-btn { order: 1; }
+
+   
+
     
 } 
+
