@@ -268,6 +268,7 @@ footer {
     text-align: center;
     gap: 10px;
     font-size: 12px;
+    margin-top: 10px;
   
 }
 
@@ -571,6 +572,7 @@ footer {
 
     .painel img{
         width: 80px;
+       
       
        
 
@@ -599,6 +601,17 @@ footer {
         line-height: 1.5;
     }
 
+    .video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+
+    }
+
+    
+
     .rotacao{ /*class que estpa na img html*/
          animation: girar 4s linear infinite;  /*o sol fica girando*/
     }
@@ -609,7 +622,15 @@ footer {
     to {
         transform: rotate(360deg);
     }
+
+    
+
+
+
+
 }
+
+
 
 
    
@@ -619,4 +640,5 @@ footer {
     
 
    
+
   
