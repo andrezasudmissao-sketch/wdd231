@@ -48,6 +48,9 @@ function exibirResultados(dados) {
 
     iconeDoClima.setAttribute('src', iconsrc);
     iconeDoClima.setAttribute('alt', dados.weather[0].description);
+
+    iconeDoClima.classList.add("rotacao"); //Ela adiciona a classe CSS chamada rotacao ao elemento que está na variável 
+
 }
 
 apiFetch();

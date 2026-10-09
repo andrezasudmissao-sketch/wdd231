@@ -566,10 +566,12 @@ footer {
       padding: 20px;
       background-color: #0d0d52;
       border: 1px solid #000;
+    
     }
 
     .painel img{
         width: 80px;
+      
        
 
     }
@@ -597,6 +599,17 @@ footer {
         line-height: 1.5;
     }
 
+    .rotacao{ /*class que estpa na img html*/
+         animation: girar 4s linear infinite;  /*o sol fica girando*/
+    }
+    @keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 
    
