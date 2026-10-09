@@ -557,7 +557,45 @@ footer {
 
     }
 
+
+    .painel{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background-color: #0d0d52;
+      border: 1px solid #000;
+    }
+
+    .painel img{
+        width: 80px;
+       
+
+    }
+
+    .painel h2{
+        color: #FFf;
+        font-size: 26px;
+
+    }
+
+    .painel p {
+        color: #FFf;
+        font-size: 18px;
+    }
     
+    /******* index ******/ 
+    .Dia{
+        padding: 10px;
+        border: 1px solid #000;
+        margin: 5px 0;
+        background-color: #FAF9F4;
+    }
+
+    .Dia p{
+        line-height: 1.5;
+    }
 
 
 

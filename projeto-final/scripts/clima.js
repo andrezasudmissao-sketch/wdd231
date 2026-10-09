@@ -33,7 +33,18 @@ function exibirResultados(dados) {
     MinhaDiscrisao.innerHTML = dados.weather[0].description;
     Atemperaruda.innerHTML = `${dados.main.temp}°C`;
 
-    const iconsrc = "imagens/clima-sol-cheio.svg";
+    // tabela de ícones conforme o clima
+    const icones = {   /*objeto*/
+        Clear: "imagens/clima-sol-cheio.svg",
+        Clouds: "imagens/clima-nuvem.svg",
+        Rain: "imagens/clima-chuva.svg"
+    };
+
+    // pega o tipo principal do clima
+    const clima = dados.weather[0].main;
+
+    // escolhe o ícone correspondente ou usa um padrão
+    const iconsrc = icones[clima] || "imagens/clima-padrao.svg";
 
     iconeDoClima.setAttribute('src', iconsrc);
     iconeDoClima.setAttribute('alt', dados.weather[0].description);
