@@ -1,19 +1,16 @@
 // Obter elementos do html
-
 const Meulocal = document.querySelector('#local');
+const iconeDoClima = document.querySelector('#imagem');
 const MinhaDiscrisao = document.querySelector('#discricao');
 const Atemperaruda = document.querySelector('#temperatura');
-const iconeDoClima = document.querySelector('#imagem');
 
 // Criar variaveis necessarias para o URL
+const MinhaChave = "88be768d072e126414077d3099f65649";
+const mlat = "-7.1187";
+const mlon = "-34.88";
+const mylingua = "pt_br";
 
-const MinhaChave = "88be768d072e126414077d3099f65649"
-const mlat = "-7.1187"
-const mlon = "-34.88"
-const mylang = "pt_br"
-
-const meuURL = `https://api.openweathermap.org/data/2.5/weather?lat=${mlat}&lon=${mlon}&appid=${MinhaChave}&units=metric&lang=${mylang}`
-const Urltrehoras = `https://api.openweathermap.org/data/2.5/forecast?lat=${mlat}&lon=${mlon}&appid=${MinhaChave}&units=metric&lang=${mylang}`
+const meuURL = `https://api.openweathermap.org/data/2.5/weather?lat=${mlat}&lon=${mlon}&appid=${MinhaChave}&units=metric&lang=${mylingua}`;
 
 // Obter dados do API
 async function apiFetch() {
@@ -22,27 +19,24 @@ async function apiFetch() {
     if (resposta.ok) {
       const dados = await resposta.json();
       console.log(dados); 
-      mostrarResultados(dados);
-
+      exibirResultados(dados); // ✔ nome corrigido
     } else {
-        throw Error(await resposta.text());
+      throw Error(await resposta.text());
     }
   } catch (erro) {
-      console.log(erro);
+    console.log(erro);
   }
 }
 
-//Pega dados do APi
+function exibirResultados(dados) {
+    Meulocal.innerHTML = dados.name;
+    MinhaDiscrisao.innerHTML = dados.weather[0].description;
+    Atemperaruda.innerHTML = `${dados.main.temp}°C`;
 
-function mostrarResultados(dados) {
-Meulocal.innerHTML = dados.name
-MinhaDiscrisao.innerHTML = dados.weather[0].description;
-Atemperaruda.innerHTML = `${dados.main.temp}°C`;
-const iconesrc = `https://openweathermap.org/img/w/${dados.weather[0].icon}.png`;
+    const iconsrc = "imagens/clima-sol-cheio.svg";
 
-iconeDoClima.setAttribute('src', iconesrc);
-iconeDoClima.setAttribute('alt', dados.weather[0].description);
-descrDaLegenda.textContent = `${descr}`;
- }
+    iconeDoClima.setAttribute('src', iconsrc);
+    iconeDoClima.setAttribute('alt', dados.weather[0].description);
+}
 
 apiFetch();
