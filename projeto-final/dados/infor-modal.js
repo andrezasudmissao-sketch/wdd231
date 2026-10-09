@@ -24,7 +24,7 @@ export const empurroezinhos = {
     "Passar alguns minutos ao ar livre"
   ],
 
-  Organizacao_produtividade: [
+  Produtividade: [
     "Criar uma lista de tarefas simples para o dia",
     "Dividir grandes objetivos em passos menores",
     "Organizar o ambiente de trabalho",
