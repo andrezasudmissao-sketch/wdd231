@@ -14,11 +14,11 @@ body {
 
 
 :root {
-    --cor-primaria: #773131;
-    --cor-secundaria: #FFFFFF;
-    --cor-de-texto: #000;
-    --cor-destaque: #55dc75;
-    --cor-destaque2: #f6f3f2;
+    --cor-primaria: #8B2E2E;      /* vermelho escuro elegante */
+    --cor-secundaria: #FFFFFF;    /* fundo */
+    --cor-de-texto: #1A1A1A;      /* preto suave */
+    --cor-destaque: #4CAF50;      /* verde moderno */
+    --cor-destaque2: #F7F4F3;     /* off-white */
 }
 
 header {
