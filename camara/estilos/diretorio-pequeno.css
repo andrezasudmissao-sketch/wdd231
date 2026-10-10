@@ -25,12 +25,9 @@ header {
     background-color: var(--cor-primaria);
 }
 
-header,
-header * {
-    color: var(--cor-secundaria);
-}
 
-/********** Cabeçalho ***********/
+
+
 .logo img {
     display: block;
     width: 50px;
@@ -72,7 +69,7 @@ header * {
     color: var(--cor-secundaria);
 }
 
-/********** Botão *********/
+
 .hamburger {
     background: none;
     border: none;
@@ -90,7 +87,7 @@ header * {
     content: "\00D7";
 }
 
-/********* Menu de navegação ************/
+
 .navegacao {
     display: none;
     background-color: var(--cor-primaria);
@@ -133,7 +130,7 @@ header * {
     font-weight: 700;
 }
 
-/********imagem hero **********/
+
 .hero img {
     width: 100%;
     height: auto;
@@ -160,7 +157,7 @@ header * {
     color: var(--cor-secundaria);
 }
 
-/***** imagem hero ******/
+
 
 .hero {
 
@@ -168,7 +165,7 @@ header * {
 }
 
 
-/***** Eventos *******/
+
 .Eventos {
 
     border: 1px solid var(--cor-de-texto);
@@ -227,7 +224,7 @@ header * {
     padding: 8px;
 }
 
-/******* Cartões *******/
+
 .cartoes-membros {
 
     gap: 8px;
@@ -301,7 +298,7 @@ a:hover {
     color: var(--cor-secundaria);
 }
 
-/*********** Footer *********/
+
 footer {
 
     background-color: var(--cor-primaria);
@@ -355,14 +352,14 @@ button {
     gap: 16px;
 }
 
-/*Secao-destaque*/
+
 
 .Secao-destaque {
 
     margin-top: 8px;
 }
 
-/****** form ******/
+
 
 input:invalid {
 
@@ -375,7 +372,7 @@ input:valid {
 }
 
 
-/**** agradecimentos *******/
+
 #agradecimentos {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -398,13 +395,12 @@ input:valid {
     text-align: center;
 }
 
-/******* form ******/
+
 form {
     display: block;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
     line-height: 2;
-    
     
 
     
@@ -467,7 +463,7 @@ textarea {
 
 }
 
-/**** form-modal e modal ******/
+
 
 .form-modal {
     
@@ -537,7 +533,7 @@ main h1{
      padding: 10px;
 }
 
-/*cartoes-areas da página sobre*/ 
+
 
 .cartoes-areas .cartao {
     display: flex;
@@ -572,45 +568,6 @@ main h1{
 
 
 
-
-/* estilo para o cartão aparece de baixo para cima:
-
-.cartao img {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: aparecer 0.6s forwards ease-out;
-}
-
-@keyframes aparecer {
-  to {
-    opacity: 3;
-    transform: translateY(0);
-  }
-}*/
-
-
-
-
-
-
-
-/* Se eu quiser mudar algo dentro dos cartões, mudar cada um coloco o nome do id+.cartao+número :#contanier-niveis .cartao:nth-child(0) { }*/
-
-/* transicões: 
-Combinar transformações: transform: translateX(20px) rotate(20deg) scale(1.1);
-Define profundidade 3D:transform: perspective(300px) rotateY(45deg);
-inclinar: transform: skew(20deg, 10deg);
-transform: skewX(30deg);
-transform: skewY(-15deg);
-aumentar diminui: transform: scale(1.2); aumenta 20% 
-transform: scale(0.8); diminui 20% 
-transform: scaleX(2);  dobra largura 
-transform: scaleY(0.5); metade da altura 
-mover: transform: translate(20px, 10px); direita e para baixo 
-transform: translateX(30px);
-transform: translateY(-15px);
-
-*/
 
 
 

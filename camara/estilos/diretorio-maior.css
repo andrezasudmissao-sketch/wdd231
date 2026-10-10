@@ -29,7 +29,7 @@
         margin-top: 6rem;
     }
 
-    /******** footer e redes sociais *********/
+   
     .icone-redes {
         width: 30px;
         height: auto;
@@ -178,9 +178,23 @@
 }
 
 
-
-
 /*flex 1 para que cada um ocupe 50% da tela lado a lado*/
 
 
+/*css medio*/
 
+
+@media only screen and (min-width: 38rem) {
+
+    .cartoes-areas{
+        grid-template-areas: 
+        "titulo"
+        "nome"
+        "endereco"
+        "descricao"
+        "botao";
+    }
+       
+    
+    
+};
