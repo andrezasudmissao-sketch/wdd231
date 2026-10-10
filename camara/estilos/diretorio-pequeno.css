@@ -48,6 +48,10 @@ header {
     padding: 10px;
 
 }
+.logomenu,
+.logomenu * {
+    color: var(--cor-secundaria);
+}
 
 
 
