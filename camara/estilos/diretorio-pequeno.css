@@ -22,7 +22,8 @@ body {
 }
 
 header {
-    background-color: var(--cor-primaria);
+    min-height: 80px;/*Reserve espaço*/
+   
 }
 
 
