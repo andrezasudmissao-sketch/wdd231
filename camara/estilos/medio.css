@@ -1,10 +1,10 @@
 @media only screen and (min-width: 38rem) {
     .cartoes-areas {
         grid-template-areas:
-            "titulo titulo"
-            "nome endereco"
-            "descricao descricao"
-            "botao botao";
+            "titulo titulo" /*Título ocupa toda a largura*/
+            "nome endereco" /*Nome e Endereço lado a lado*/
+            "descricao descricao" /*Descrição ocupa toda a largura*/
+            "botao botao";    /*Botão centralizado na linha inteira*/
         grid-template-columns: 1fr 1fr;
     }
 }

@@ -17,7 +17,7 @@ body {
     --cor-primaria: #773131;
     --cor-secundaria: #FFFFFF;
     --cor-de-texto: #000;
-    --cor-destaque: #8abff4;
+    --cor-destaque: #55dc75;
     --cor-destaque2: #f6f3f2;
 }
 
@@ -91,7 +91,6 @@ header {
 
 .navegacao {
     display: none;
-    background-color: var(--cor-primaria);
     padding: 10px;
     margin-top: auto;
     order: 2;
