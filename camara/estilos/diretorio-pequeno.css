@@ -23,7 +23,7 @@ body {
 
 header {
     min-height: 80px;
-    background-color: var(--cor-primaria);
+   
 }
 
 
@@ -332,11 +332,13 @@ button {
     border-radius: 5px;
     color: var(--cor-secundaria);
     font-size: 12px;
+    
 }
 
 .view-toggle button:hover {
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
+    
 
 }
 
@@ -558,7 +560,9 @@ main h1{
     width: 50%;
     padding: 5px;
     border-radius: 5px;
+    border: 1px solid #000;
     margin-top: 40px;
+
     
     
 }
