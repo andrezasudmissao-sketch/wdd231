@@ -50,7 +50,7 @@ header {
 }
 .logomenu,
 .logomenu * {
-    color: var(--cor-secundaria);
+    color: var(--cor-secundaria); /*E garantir que nenhum elemento dentro dele sobrescreva isso com color: var(--cor-de-texto).*/
 }
 
 
