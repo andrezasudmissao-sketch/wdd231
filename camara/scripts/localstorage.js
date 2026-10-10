@@ -1,5 +1,5 @@
 // Pega o elemento onde a mensagem será exibida na página
-const areaMensagem = document.getElementById("mensagem-visita");
+const areaMensagem = document.querySelector("#mensagem-visita");
 
 // Recupera do localStorage a data da última visita do usuário
 const valor = localStorage.getItem("ultimaVisita");
@@ -16,7 +16,8 @@ if (valor == null) {
   localStorage.setItem("ultimaVisita", new Date().toISOString());
 
   // Exibe mensagem de boas-vindas
-  areaMensagem.innerHTML = "Boas-vindas! Entre em contato conosco caso tenha alguma dúvida.";
+  const areaMensagem = "Boas-vindas! Entre em contato conosco caso tenha alguma dúvida.";
+  localStorage.setItem("mensagemVisita", areaMensagem.innerHTML);
 }
 
 
@@ -40,17 +41,20 @@ else {
 
   // Se o intervalo for menor que 1 dia → dias == 0
   if (dias == 0) {
-    areaMensagem.innerHTML = "Já voltou? Que legal!";
+    const areaMensagem = "Já voltou? Que legal!";
+    localStorage.setItem("mensagemVisita", areaMensagem.innerHTML);
   }
 
   // Se o intervalo for exatamente 1 dia
   else if (dias == 1){
-    areaMensagem.innerHTML = "Seu último acesso foi há 1 dia.";
+    const areaMensagem = "Seu último acesso foi há 1 dia.";
+    localStorage.setItem("mensagemVisita", areaMensagem.innerHTML);
   }
 
   // Se o intervalo for maior que 1 dia
   else{
-    areaMensagem.innerHTML = `Seu último acesso foi há ${dias} dias.`;
+    const areaMensagem = `Seu último acesso foi há ${dias} dias.`;
+    localStorage.setItem("mensagemVisita", areaMensagem.innerHTML);
   }
 
   // Atualiza a data da última visita para agora

@@ -14,6 +14,7 @@
     <script src="scripts/dataehora.js" defer></script>
     <script src="scripts/btn-ham.js" defer ></script>
     <script src="scripts/clima.js" defer ></script>
+    <script src="scripts/cards-destaque.js" defer ></script>
    
 
 
@@ -42,7 +43,7 @@
         <nav id="barra-navegacao" class="navegacao">
             <ul>
                 <li><a href="index.html" class="menu-item" aria-current="page">Página Inicial</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="sobre.html"  aria-label="Abrir menu">Sobre</a></li>
                 <li><a href="contato.html">Contatos</a></li>
             </ul>
         </nav>
@@ -103,12 +104,21 @@
 
     <div id="cards-destaque"></div>
 
+
+    <button class="abrir-modal" data-type="Saude_fisica">Saúde Física</button>
+    <button class="abrir-modal" data-type="Saude_mental">Saúde Mental</button>
+    <button class="abril-modal" data-type="Produtividade">Produtividade</button>
+
     <!--Modal-->
-    <dialog id="meuModal">
-        <h2></h2>
-        <p></p>
-        <button id="fecharModal">Fechar</button>
-    </dialog>
+  
+   <div id="modal" class="modal">
+     <div class="modal-conteudo">
+      <span id="fechar">&times;</span>
+      <h2 id="modal-titulo"></h2>
+      <ul id="modal-lista"></ul>
+    </div>
+   </div>
+    
 
 
 
