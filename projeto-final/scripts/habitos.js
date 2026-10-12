@@ -1,9 +1,9 @@
-const url = 'https://raw.githubusercontent.com/andrezasudmissao-sketch/wdd231/refs/heads/main/projeto-final/dados/ben-habitos.json';
+const DadosUrl = 'https://raw.githubusercontent.com/andrezasudmissao-sketch/wdd231/refs/heads/main/projeto-final/dados/ben-habitos.json';
 
 const habitosContainer = document.querySelector('#habitos-cartoes');
 
 async function obterDadosDeHabitos() {
-    const resposta = await fetch(url);
+    const resposta = await fetch(DadosUrl);
     const dados = await resposta.json();
     exibirhabitos(dados.habitos, habitosContainer); 
 }

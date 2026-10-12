@@ -4,32 +4,32 @@
   "habitos": [
     {
       "id": 1,
-      "titulo": "Beber água diariamente",
+      "titulo": "Aquirir hábito: Beber água diariamente",
       "exemplo": "\"Hoje cedo, enchi minha garrafinha e deixei ao meu lado enquanto trabalhava. Cada vez que fazia uma pausa, tomava alguns goles. No fim do dia, consegui beber a quantidade que eu queria.\""
     },
     {
       "id": 2,
-      "titulo": "Meditar 5 minutos",
+      "titulo": "Aquirir hábito: Meditar 5 minutos",
       "exemplo": "\"Antes de começar o trabalho, sentei em um lugar silencioso, coloquei um cronômetro de cinco minutos e foquei só na respiração. Quando pensamentos apareciam, eu voltava a me concentrar. Terminei me sentindo mais calma para o dia.\""
     },
     {
       "id": 3,
-      "titulo": "Planejar o dia",
+      "titulo": "Aquirir hábito: Planejar o dia",
       "exemplo": "\"Peguei um papel e escrevi tudo o que precisava fazer. Depois, marquei o que era prioridade e distribuí as tarefas pelos horários. Assim consegui visualizar meu dia e seguir o plano com mais clareza.\""
     },
     {
       "id": 4,
-      "titulo": "Ler por 10 minutos",
+      "titulo": "Aquirir hábito: Ler por 10 minutos",
       "exemplo": "\"Escolhi um livro que estava parado na estante, coloquei o celular no silencioso e li por dez minutos antes de dormir. Foi o suficiente para relaxar e manter o hábito ativo.\""
     },
     {
       "id": 5,
-      "titulo": "Alongar ao acordar",
+      "titulo": "Aquirir hábito: Alongar ao acordar",
       "exemplo": "\"Assim que levantei, fiz três alongamentos simples: estiquei os braços, alonguei o pescoço e toquei os pés com as mãos. Durou dois minutos e ajudou meu corpo a despertar.\""
     },
     {
       "id": 6,
-      "titulo": "Organizar o ambiente",
+      "titulo": "Aquirir hábito: Organizar o ambiente",
       "exemplo": "\"Antes de começar minhas tarefas, tirei da mesa tudo que não era necessário. Guardei papéis soltos, limpei a superfície e deixei só o essencial. O ambiente ficou mais leve e fácil de focar.\""
     }
   ]

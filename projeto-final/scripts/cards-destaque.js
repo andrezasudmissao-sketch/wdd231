@@ -38,13 +38,8 @@ const exibirCards = (cards) => {
         retrato.alt = `Imagem sobre ${item.titulo}`;
         retrato.loading = 'lazy';
 
-        const botao = document.createElement('button');
-        botao.textContent = "Curioso(a)? Saiba Mais";
-
-
         texto.appendChild(titulo);
         texto.appendChild(paragrafo);
-        texto.appendChild(botao);
 
         info.appendChild(texto);
         info.appendChild(retrato);
@@ -54,7 +49,7 @@ const exibirCards = (cards) => {
         cardContainer.appendChild(cartao);
     });
 };
-;
+
 
 
 
