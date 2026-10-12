@@ -12,11 +12,13 @@ body {
 }
 
 :root {
-    --cor-primaria: ;
-    --cor-secudanria: ;
-    --cor-fundo: ;
-    --cor-de-texto: ;
-    --fonte-family: ;    
+    --cor-primaria:#0d0d52 ;
+    --cor-secudanria:#fff ;
+    --cor-destaque: #FFFF00; 
+    --cor-fundo:#FFFAF0 ;
+    --cor-de-texto:#000 ;
+    --fonte-family:"Nunito Sans", sans-serif ;  
+     
 
 }
 
@@ -673,7 +675,7 @@ footer {
     width: 30px;
     text-align: center;
     background-color: #0d0d52;
-    color: #FFf;
+    color: #fff;
     padding: 10px;
     margin: 5px 5px;
   }
