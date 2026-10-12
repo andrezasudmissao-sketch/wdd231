@@ -481,14 +481,16 @@ footer {
 
 
      #cards-destaque{
-       
-          gap:4px
+         
+        margin: 5px 10px;
+        
+        
         
     }
 
     #cards-destaque img{
-        width: 100%;
-        height: auto;
+        width: 250;
+        height: 120;
         display: block;
         box-shadow: 2px 2px rgba(0, 1, 2, 0.6);
     }
@@ -505,9 +507,8 @@ footer {
     }
 
     
+   
 
-    
-    
 
    #habitos-cartoes{
         display: grid;
@@ -542,6 +543,7 @@ footer {
 
     }
 
+    
     /*clima*/
     .painel{
       display: flex;
