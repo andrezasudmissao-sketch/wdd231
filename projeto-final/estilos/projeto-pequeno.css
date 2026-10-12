@@ -7,17 +7,23 @@
 
 
 body {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: var(--fonte-principal);
     
 }
 
 :root {
-    --cor-primaria:#0d0d52 ;
-    --cor-secudanria:#fff ;
-    --cor-destaque: #FFFF00; 
-    --cor-fundo:#FFFAF0 ;
-    --cor-de-texto:#000 ;
-    --fonte-family:"Nunito Sans", sans-serif ;  
+    --cor-primaria: #0d0d52;
+    --cor-secundaria: #fff;
+    --cor-destaque: #ffff00;
+    --cor-fundo: #fffaf0;
+    --cor-fundo-alt: #faf9f4;
+    --cor-texto: #000;
+
+    --fonte-principal: "Nunito Sans", sans-serif;
+    --fonte-secundaria: "Roboto Condensed", sans-serif;
+
+    --borda-padrao: 1px solid var(--cor-texto);
+    --sombra-suave: 2px 2px rgba(0, 1, 2, 0.6);
      
 
 }
@@ -25,8 +31,8 @@ body {
 /*header e menu*/
 
 header{ 
-    color: #FFFAF0;
-    background-color:#0d0d52 ;  
+    color: var(--cor-fundo);
+    background-color:var(--cor-primaria) ;  
 
 }
 
@@ -60,7 +66,7 @@ nav ul li{
 nav a{
     
     text-decoration: none; /*remover o sublinhado do menu(os links tem sublinhado)*/
-    color:#fff;   
+    color:var(--cor-secundaria);   
     font-weight: 700;
     
     
@@ -69,7 +75,7 @@ nav a{
 /*o efeito  de hover é aquele que acontece quando você passa o mouse por cima de um elemento — como um botão, link ou imagem — e ele muda de aparência.*/
 a:hover {
 
-  border: 1px solid #fff;
+  border: 1px solid var(--cor-secundaria);
   padding: 10px;
 }
 
@@ -109,7 +115,7 @@ a:hover {
 .hamburger::after {
     content: "\2630";
     font-size: 2rem;
-    color: #fff;
+    color: var(--cor-secundaria);
     
   
 }
@@ -124,7 +130,7 @@ a:hover {
 
 a[aria-current="page"] {
   font-weight:lighter;
-  color:#FFFF00;
+  color:var(--cor-destaque);
   text-decoration:underline;
    animation: pulse 1s infinite alternate; /*animção*/
 }
@@ -167,8 +173,8 @@ a[aria-current="page"] {
     
     padding: 10px;
     text-align: center;
-    background-color: #0d0d52;
-    color: #fff;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     line-height: 1.5;
     margin-bottom: 4px;
 }
@@ -176,13 +182,13 @@ a[aria-current="page"] {
 .Agora a {
     text-decoration: none;
     border: none;
-    color: #FFf;
+    color: var(--cor-secundaria);
     
 }
 
 .Agora a:hover{
     text-decoration: line-through;
-    color: #fff;
+    color: var(--cor-secundaria);
     border-radius: 2px;
     font-size: 20px;
 }
@@ -210,7 +216,7 @@ a[aria-current="page"] {
 .Agora h1{
     
     font-size:2rem;
-    color:#fff;
+    color:var(--cor-secundaria);
     text-align: center;
     margin-bottom: 10px;
 }
@@ -219,8 +225,8 @@ a[aria-current="page"] {
 
 .habitos {
     padding:10px;
-    border: 1px solid #0d0d52;
-    background-color: #FFFAF0;
+    border: 1px solid var(--cor-primaria);
+    background-color: var(--cor-fundo);
 
 }
 
@@ -230,7 +236,7 @@ a[aria-current="page"] {
 }
 
 .habitos h1{
-    color:#0d0d52;
+    color:var(--cor-primaria);
     line-height: 1.2;
 }
 
@@ -257,8 +263,8 @@ a[aria-current="page"] {
 /********* footer e rede social *********/
 
 footer {
-    background-color:#0d0d52;
-    color: #fff;
+    background-color:var(--cor-primaria);
+    color: var(--cor-secundaria);
     margin-top: 5px;
     padding: 6px;
 }
@@ -315,8 +321,8 @@ footer {
   }
 
   .relatos p:hover{
-    background-color: #FFFAF0;
-    border: 1px solid #000;
+    background-color: var(--cor-fundo);
+    border: 1px solid var(--cor-texto);
     border-radius: 0 10px;
     box-shadow: 2px 2px rgba(0, 1, 2, 0.6);
     padding: 10px;
@@ -390,8 +396,8 @@ footer {
       border-radius: 5px;
       padding: 5px;
       box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
-      background-color: #000;
-      color: #fff;
+      background-color: var(--cor-texto);
+      color: var(--cor-secundaria);
       cursor: pointer;
       margin-top: 8px;
       font-weight: 600;
@@ -400,8 +406,8 @@ footer {
     }
 
    form button:hover {
-      background-color:#FFFF00;
-      color: #000;
+      background-color:var(--cor-destaque);
+      color: var(--cor-texto);
 
    }
    
@@ -445,10 +451,10 @@ footer {
 
    #Mini-desafios{
     padding: 10px;
-    border: 1px solid #000;
+    border: 1px solid var(--cor-texto);
     border-radius:5px 0 ;
     margin-bottom: 4px;
-    background-color: #FFFAF0;
+    background-color: var(--cor-fundo);
     
     
   }
@@ -472,10 +478,10 @@ footer {
     /****** página sobre ****/
 
     #d-diarios{
-        background-color: #FFFAF0;
+        background-color: var(--cor-fundo);
         margin: 4px 0;
         padding: 10px;
-        border: 1px solid #000;
+        border: 1px solid var(--cor-texto);
         border-radius: 5px 0;
         
     }
@@ -501,11 +507,11 @@ footer {
       
          padding: 10px;
          border-radius: 0 10px;
-         background:#FFFAF0;
+         background:var(--cor-fundo);
     }
 
     #cards-destaque section:hover{
-        border: 1px solid #000;
+        border: 1px solid var(--cor-texto);
     }
 
     
@@ -523,16 +529,16 @@ footer {
         
         padding: 10px;
         margin-bottom: 4px;
-        background-color: #FFFAF0;
+        background-color: var(--cor-fundo);
 
 
     }
 
     #habitos-cartoes h2{
-        background-color: #0d0d52;
+        background-color: var(--cor-primaria);
         border-radius: 10px;
         padding: 5px;
-        color: #fff;
+        color: var(--cor-secundaria);
         width: 150px;
         font-size: 0.8rem;
         text-align: center;
@@ -540,7 +546,7 @@ footer {
     }
 
     #habitos-cartoes section:hover {
-        border: 1px solid #000;
+        border: 1px solid var(--cor-texto);
         border-radius: 0 10px;
 
     }
@@ -553,8 +559,8 @@ footer {
       justify-content: center;
       align-items: center;
       padding: 20px;
-      background-color: #0d0d52;
-      border: 1px solid #000;
+      background-color: var(--cor-primaria);
+      border: 1px solid var(--cor-texto);
     
     }
 
@@ -567,22 +573,22 @@ footer {
     }
 
     .painel h2{
-        color: #FFf;
+        color: var(--cor-secundaria);
         font-size: 26px;
 
     }
 
     .painel p {
-        color: #FFf;
+        color: var(--cor-secundaria);
         font-size: 18px;
     }
     
     /******* index ******/ 
     .Dia{
         padding: 10px;
-        border: 1px solid #000;
+        border: 1px solid var(--cor-texto);
         margin: 5px 0;
-        background-color: #FAF9F4;
+        background-color: var(--cor-fundo);
     }
 
     .Dia p{
@@ -617,7 +623,7 @@ footer {
      #btnAbrir1, #btnAbrir2, #btnAbrir3{
      
         margin-bottom: 3px;
-        background-color:#FAF9F4;
+        background-color:var(--cor-fundo-alt);
         color: #000;
         padding: 5px;
         border-radius:5px;
@@ -629,8 +635,8 @@ footer {
 
 
    #btnAbrir1:hover, #btnAbrir2:hover, #btnAbrir3:hover {
-        background-color: #FFFF00;
-        color:#000;
+        background-color: var(--cor-destaque);
+        color:var(--cor-texto);
         transform: translateY(-6px);
 
    }
@@ -656,13 +662,13 @@ footer {
     transform: translateY(-6px);
   }
   .agradecer{
-    border: 1px solid #000;
+    border: 1px solid var(--cor-texto);
     transition: transform 0.3s ease;
   }
 
   #caixaDialogo{
     margin: 20px 10px;
-    background-color: #FAF9F4;
+    background-color: var(--cor-fundo);
     font-size: 15px;
     justify-self:right; /*movimenta o item*/
     margin-top: 10px;
@@ -674,8 +680,8 @@ footer {
     margin-right: 10px;
     width: 30px;
     text-align: center;
-    background-color: #0d0d52;
-    color: #fff;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     padding: 10px;
     margin: 5px 5px;
   }
